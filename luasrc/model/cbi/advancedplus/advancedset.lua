@@ -10,7 +10,7 @@ translate("</br>For specific usage, see:")..translate("<a href=\'https://github.
 s = m:section(TypedSection, "basic", translate("Settings"))
 s.anonymous = true
 
-o = s:option(Flag, "qos", translate('Qos automatic optimization'), translate('Enable QOS automatic optimization strategy (testing function)'))
+o = s:option(Flag, "qos", translate("Qos automatic optimization"), translate("Enable QOS automatic optimization strategy (testing function)"))
 o.default = "0"
 o.rmempty = false
 
@@ -22,25 +22,25 @@ ul = s:option(Value, "upload", translate("Upload bandwidth(Mbit/s)"))
 ul.default = '30'
 ul:depends("qos", true)
 
-o = s:option(Flag, "uhttps", translate('Accessing using HTTPS'), translate('Open the address in the background and use HTTPS for secure access'))
+o = s:option(Flag, "uhttps", translate("Accessing using HTTPS"), translate("Open the address in the background and use HTTPS for secure access"))
 
-o = s:option(Flag, "usshmenu", translate('No backend menu required'), translate('OPENWRT backend and SSH login do not display shortcut menus'))
+o = s:option(Flag, "usshmenu", translate("No backend menu required"), translate("OPENWRT backend and SSH login do not display shortcut menus"))
 
-o = s:option(Flag, "wizard", translate('Hide Wizard'), translate('Show or hide the setup wizard menu'))
+o = s:option(Flag, "wizard", translate("Hide Wizard"), translate("Show or hide the setup wizard menu"))
 o.default = "0"
 o.rmempty = false
 
-o = s:option(Flag, "tsoset", translate('TSO optimization for network card interruption'), translate('Turn off the TSO parameters of the INTEL225 network card to improve network interruption'))
+o = s:option(Flag, "tsoset", translate("TSO optimization for network card interruption"), translate("Turn off the TSO parameters of the INTEL225 network card to improve network interruption"))
 o.default = "1"
 o.rmempty = false
 
-o = s:option(Flag, "set_ttyd", translate('Allow TTYD external network access'))
+o = s:option(Flag, "set_ttyd", translate("Allow TTYD external network access"))
 o.default = "0"
 
-o = s:option(Flag, "set_firewall_wan", translate('Set firewall wan to open'))
+o = s:option(Flag, "set_firewall_wan", translate("Set firewall wan to open"))
 o.default = "0"
 
-o = s:option(Flag, "dhcp_domain", translate('Add Android host name mapping'), translate('Resolve the issue of Android native TV not being able to connect to WiFi for the first time'))
+o = s:option(Flag, "dhcp_domain", translate("Add Android host name mapping"), translate("Resolve the issue of Android native TV not being able to connect to WiFi for the first time"))
 o.default = "0"
 
 return m

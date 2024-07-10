@@ -20,31 +20,31 @@ local transparency_sets = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1}
 local br, s, o
 
 -- [[ 模糊设置 ]]--
-br = SimpleForm('config', translate('Argon Config'), translate('Here you can set the blur and transparency of the login page of argon theme, and manage the background pictures and videos.[Chrome is recommended]'))
+br = SimpleForm('config', translate("Argon Config"), translate("Here you can set the blur and transparency of the login page of argon theme, and manage the background pictures and videos.[Chrome is recommended]"))
 br.reset = false
 br.submit = false
 s = br:section(SimpleSection)
 
-o = s:option(ListValue, 'bing_background', translate('Wallpaper Source'))
-o:value('0', translate('Built-in'))
-o:value('1', translate('Bing Wallpapers'))
+o = s:option(ListValue, 'bing_background', translate("Wallpaper Source"))
+o:value('0', translate("Built-in"))
+o:value('1', translate("Bing Wallpapers"))
 o.default = bing_background
 o.rmempty = false
 
-o = s:option(ListValue, 'mode', translate('Theme mode'))
-o:value('normal', translate('Follow System'))
-o:value('light', translate('Force Light'))
-o:value('dark', translate('Force Dark'))
+o = s:option(ListValue, 'mode', translate("Theme mode"))
+o:value('normal', translate("Follow System"))
+o:value('light', translate("Force Light"))
+o:value('dark', translate("Force Dark"))
 o.default = mode
 o.rmempty = false
-o.description = translate('You can choose Theme color mode here')
+o.description = translate("You can choose Theme color mode here")
 
-o = s:option(Value, 'primary', translate('[Light mode] Primary Color'), translate('A HEX Color ; ( Default: #5e72e4 )'))
+o = s:option(Value, 'primary', translate("[Light mode] Primary Color"), translate("A HEX Color ; ( Default: #5e72e4 )"))
 o.default = primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency', translate('[Light mode] Transparency'), translate('0 transparent - 1 opaque ; ( Suggest: transparent: 0 or translucent preset: 0.5 )'))
+o = s:option(ListValue, 'transparency', translate("[Light mode] Transparency"), translate("0 transparent - 1 opaque ; ( Suggest: transparent: 0 or translucent preset: 0.5 )"))
 for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
@@ -52,17 +52,17 @@ o.default = blur_opacity
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'blur', translate('[Light mode] Frosted Glass Radius'), translate('Larger value will more blurred ; ( Suggest:  clear: 1 or blur preset: 10 )'))
+o = s:option(Value, 'blur', translate("[Light mode] Frosted Glass Radius"), translate("Larger value will more blurred ; ( Suggest:  clear: 1 or blur preset: 10 )"))
 o.default = blur_radius
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'dark_primary', translate('[Dark mode] Primary Color'), translate('A HEX Color ; ( Default: #483d8b )'))
+o = s:option(Value, 'dark_primary', translate("[Dark mode] Primary Color"), translate("A HEX Color ; ( Default: #483d8b )"))
 o.default = dark_primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency_dark', translate('[Dark mode] Transparency'), translate('0 transparent - 1 opaque ; ( Suggest: Black translucent preset: 0.5 )'))
+o = s:option(ListValue, 'transparency_dark', translate("[Dark mode] Transparency"), translate("0 transparent - 1 opaque ; ( Suggest: Black translucent preset: 0.5 )"))
 for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
@@ -70,12 +70,12 @@ o.default = blur_opacity_dark
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'blur_dark', translate('[Dark mode] Frosted Glass Radius'), translate('Larger value will more blurred ; ( Suggest:  clear: 1 or blur preset: 10 )'))
+o = s:option(Value, 'blur_dark', translate("[Dark mode] Frosted Glass Radius"), translate("Larger value will more blurred ; ( Suggest:  clear: 1 or blur preset: 10 )"))
 o.default = blur_radius_dark
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Button, 'save', translate('Save Changes'))
+o = s:option(Button, 'save', translate("Save Changes"))
 o.inputstyle = 'reload'
 
 function br.handle(self, state, data)

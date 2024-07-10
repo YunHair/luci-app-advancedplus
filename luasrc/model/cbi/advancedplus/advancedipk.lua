@@ -9,7 +9,7 @@ m.apply_on_parse = true
 s = m:section(TypedSection, "basic", "")
 s.anonymous = true
 
-o = s:option(ListValue, 'select_ipk', translate('Select the type of loading'))
+o = s:option(ListValue, 'select_ipk', translate("Select the type of loading"))
 o:value("istore", translate("Install iStore"))
 o:value("docker", translate("Install Docker"))
 o:value("drv", translate("Install All drives"))

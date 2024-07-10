@@ -22,7 +22,7 @@ function glob(...)
 end
 
 local dir = '/www/luci-static/resources/background/'
-ful = SimpleForm('upload', translate('Upload  (Free: ')..wa.byte_format(free_byte)..')', translate("Only JPG, PNG, and GIF files can be uploaded."))
+ful = SimpleForm('upload', translate("Upload  (Free: ")..wa.byte_format(free_byte)..')', translate("Only JPG, PNG, and GIF files can be uploaded."))
 ful.reset = false
 ful.submit = false
 
@@ -46,7 +46,7 @@ http.setfilehandler(
 			end
 
 			if not fd then
-				um.value = translate('Create upload file error.')
+				um.value = translate("Create upload file error.")
 				return
 			end
 		end
@@ -56,7 +56,7 @@ http.setfilehandler(
 		if eof and fd then
 			fd:close()
 			fd = nil
-			um.value = translate('File saved to')..dir..meta.file
+			um.value = translate("File saved to")..dir..meta.file
 		end
 	end
 )
@@ -64,7 +64,7 @@ http.setfilehandler(
 if http.formvalue('upload') then
 	local f = http.formvalue('ulfile')
 	if #f <= 0 then
-		um.value = translate('No specify upload file.')
+		um.value = translate("No specify upload file.")
 	end
 end
 
@@ -92,15 +92,15 @@ for i, f in ipairs(glob(dir..'*')) do
 	end
 end
 
-form = SimpleForm('filelist', translate('Background file list'), nil)
+form = SimpleForm('filelist', translate("Background file list"), nil)
 form.reset = false
 form.submit = false
 
 tb = form:section(Table, inits)
-nm = tb:option(DummyValue, 'name', translate('File name'))
-mt = tb:option(DummyValue, 'mtime', translate('Modify time'))
-sz = tb:option(DummyValue, 'size', translate('Size'))
-btnrm = tb:option(Button, 'remove', translate('Remove'))
+nm = tb:option(DummyValue, 'name', translate("File name"))
+mt = tb:option(DummyValue, 'mtime', translate("Modify time"))
+sz = tb:option(DummyValue, 'size', translate("Size"))
+btnrm = tb:option(Button, 'remove', translate("Remove"))
 btnrm.render = function(self, section, scope)
 	self.inputstyle = 'remove'
 	Button.render(self, section, scope)
