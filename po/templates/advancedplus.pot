@@ -637,33 +637,3 @@ msgstr ""
 #: luasrc/model/cbi/advancedplus/config-argon.lua:47
 msgid "[Light mode] Transparency"
 msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:36
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:65
-msgid "helloworld"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:37
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:66
-msgid "homeproxy"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:38
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:67
-msgid "mihomo"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:39
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:68
-msgid "openclash"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:40
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:69
-msgid "passwall"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:41
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:70
-msgid "passwall2"
-msgstr ""
