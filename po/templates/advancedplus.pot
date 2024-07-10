@@ -1,14 +1,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:65
-msgid "0 transparent - 1 opaque ; ( Suggest: Black translucent preset: 0.5 )"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+msgid "0 clear - 10 blur"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:47
-msgid ""
-"0 transparent - 1 opaque ; ( Suggest: transparent: 0 or translucent preset: "
-"0.5 )"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:68
+msgid "0 transparent - 1 opaque"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
@@ -38,12 +38,9 @@ msgid ""
 "as inability to power on!</strong></font><br/>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:60
-msgid "A HEX Color ; ( Default: #483d8b )"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-argon.lua:42
-msgid "A HEX Color ; ( Default: #5e72e4 )"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+msgid "A HEX Color"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:25
@@ -155,7 +152,7 @@ msgstr ""
 msgid "Click to execute"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:30
+#: luasrc/model/cbi/advancedplus/config-design.lua:29
 msgid "Close navigation bar"
 msgstr ""
 
@@ -180,7 +177,7 @@ msgstr ""
 msgid "Dark"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:15
+#: luasrc/model/cbi/advancedplus/config-design.lua:14
 msgid "Design Config"
 msgstr ""
 
@@ -196,7 +193,7 @@ msgstr ""
 msgid "Disk Man"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:29
+#: luasrc/model/cbi/advancedplus/config-design.lua:28
 msgid "Display navigation bar"
 msgstr ""
 
@@ -257,18 +254,23 @@ msgid "File saved to"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:35
-#: luasrc/model/cbi/advancedplus/config-design.lua:21
+#: luasrc/model/cbi/advancedplus/config-design.lua:20
 msgid "Follow System"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:37
-#: luasrc/model/cbi/advancedplus/config-design.lua:23
+#: luasrc/model/cbi/advancedplus/config-design.lua:22
 msgid "Force Dark"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:36
-#: luasrc/model/cbi/advancedplus/config-design.lua:22
+#: luasrc/model/cbi/advancedplus/config-design.lua:21
 msgid "Force Light"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+msgid "Frosted Glass Radius"
 msgstr ""
 
 #: root/usr/share/rpcd/acl.d/luci-app-advancedplus.json:3
@@ -276,22 +278,15 @@ msgid "Grant UCI access for luci-app-advancedplus"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:23
-msgid ""
-"Here you can set the blur and transparency of the login page of argon theme, "
-"and manage the background pictures and videos.[Chrome is recommended]"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:15
-msgid ""
-"Here you can set the mode of the theme and change the proxy tool icon in the "
-"navigation bar. [Recommend Chrome]"
+#: luasrc/model/cbi/advancedplus/config-design.lua:14
+msgid "Here you can adjust various theme settings. [Recommend Chrome]"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:29
 msgid "Hide Wizard"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:44
+#: luasrc/model/cbi/advancedplus/config-design.lua:43
 msgid "Homeproxy by default"
 msgstr ""
 
@@ -321,12 +316,6 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:57
 msgid "LED Configuration"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:73
-msgid ""
-"Larger value will more blurred ; ( Suggest: clear: 1 or blur preset: 10 )"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:91
@@ -369,11 +358,11 @@ msgstr ""
 msgid "Mount Points"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:35
+#: luasrc/model/cbi/advancedplus/config-design.lua:34
 msgid "Navigation bar proxy"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:28
+#: luasrc/model/cbi/advancedplus/config-design.lua:27
 msgid "Navigation bar setting"
 msgstr ""
 
@@ -405,6 +394,11 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:18
 msgid "Perform operation"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:42
+#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+msgid "Primary Color"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:43
@@ -454,8 +448,8 @@ msgstr ""
 msgid "SandyBrown"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:78
-#: luasrc/model/cbi/advancedplus/config-design.lua:46
+#: luasrc/model/cbi/advancedplus/config-argon.lua:84
+#: luasrc/model/cbi/advancedplus/config-design.lua:45
 msgid "Save Changes"
 msgstr ""
 
@@ -532,7 +526,7 @@ msgid ""
 "design themes can be set.<br>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:33
+#: luasrc/model/cbi/advancedplus/config-design.lua:32
 msgid "The navigation bar is display by default"
 msgstr ""
 
@@ -543,7 +537,7 @@ msgid ""
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:34
-#: luasrc/model/cbi/advancedplus/config-design.lua:20
+#: luasrc/model/cbi/advancedplus/config-design.lua:19
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:89
 msgid "Theme mode"
 msgstr ""
@@ -562,6 +556,11 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:99
 msgid "TomatoRed"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:47
+#: luasrc/model/cbi/advancedplus/config-argon.lua:68
+msgid "Transparency"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
@@ -610,30 +609,18 @@ msgid "Wallpaper transparency"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:40
-#: luasrc/model/cbi/advancedplus/config-design.lua:26
+#: luasrc/model/cbi/advancedplus/config-design.lua:25
 msgid "You can choose Theme color mode here"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:73
-msgid "[Dark mode] Frosted Glass Radius"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:60
-msgid "[Dark mode] Primary Color"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:65
-msgid "[Dark mode] Transparency"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-msgid "[Light mode] Frosted Glass Radius"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+#: luasrc/model/cbi/advancedplus/config-argon.lua:68
+#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+msgid "[Dark mode]"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:42
-msgid "[Light mode] Primary Color"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-argon.lua:47
-msgid "[Light mode] Transparency"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+msgid "[Light mode]"
 msgstr ""
