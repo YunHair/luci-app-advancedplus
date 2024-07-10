@@ -30,7 +30,7 @@ jobs:
 
           curl -LO "https://github.com/openwrt/luci/raw/master/build/i18n-scan.pl"
           curl -LO "https://github.com/openwrt/luci/raw/master/build/i18n-update.pl"
-          perl "i18n-scan.pl" . > "po/templates/homeproxy.pot"
+          perl "i18n-scan.pl" . > "po/templates/*.pot"
           perl "i18n-update.pl" "po"
           find po/ -name '*.po~' -exec rm -f {} \;
           rm -f "i18n-scan.pl" "i18n-update.pl"
