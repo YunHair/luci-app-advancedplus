@@ -1,6 +1,6 @@
 
 config basic
-	option gossr 'bypass'
+	option goproxy 'homeproxy'
 	option gouser 'advancedplus'
 	option gohome 'overview'
 	option fontmode '0'
@@ -8,9 +8,9 @@ config basic
 	option font_z '0.92rem'
 	option font_x '0.875rem'
 	option bklock '1'
-	option setbar '1'
+	option setbar '0'
 	option dayword '0'
-	option background '0'
+	option background '3'
 	option bgqs '1'
 	option mode 'light'
 	option primary_rgbbody '248,248,248'

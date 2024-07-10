@@ -1,21 +1,11 @@
-local nxfs = require 'nixio.fs'
-local wa = require 'luci.tools.webadmin'
-local opkg = require 'luci.model.ipkg'
-local sys = require 'luci.sys'
-local http = require 'luci.http'
-local nutil = require 'nixio.util'
+local fs = require 'nixio.fs'
+local ipkg = require 'luci.model.ipkg'
+local util = require 'nixio.util'
+local uci = luci.model.uci.cursor()
 local name = 'argon'
-local uci = require 'luci.model.uci'.cursor()
-
-local fstat = nxfs.statvfs(opkg.overlay_root())
-local space_total = fstat and fstat.blocks or 0
-local space_free = fstat and fstat.bfree or 0
-local space_used = space_total - space_free
-
-local free_byte = space_free * fstat.frsize
 
 local primary, dark_primary, blur_radius, blur_radius_dark, blur_opacity, mode
-if nxfs.access('/etc/config/argon') then
+if fs.access('/etc/config/argon') then
 	primary = uci:get_first('argon', 'global', 'primary')
 	dark_primary = uci:get_first('argon', 'global', 'dark_primary')
 	blur_radius = uci:get_first('argon', 'global', 'blur')
@@ -26,34 +16,14 @@ if nxfs.access('/etc/config/argon') then
 	bing_background = uci:get_first('argon', 'global', 'bing_background')
 end
 
-function glob(...)
-    local iter, code, msg = nxfs.glob(...)
-    if iter then
-        return nutil.consume(iter)
-    else
-        return nil, code, msg
-    end
-end
-
-local transparency_sets = {
-    0,
-    0.1,
-    0.2,
-    0.3,
-    0.4,
-    0.5,
-    0.6,
-    0.7,
-    0.8,
-    0.9,
-    1
-}
+local transparency_sets = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1}
+local br, s, o
 
 -- [[ 模糊设置 ]]--
 br = SimpleForm('config', translate('Argon Config'), translate('Here you can set the blur and transparency of the login page of argon theme, and manage the background pictures and videos.[Chrome is recommended]'))
 br.reset = false
 br.submit = false
-s = br:section(SimpleSection) 
+s = br:section(SimpleSection)
 
 o = s:option(ListValue, 'bing_background', translate('Wallpaper Source'))
 o:value('0', translate('Built-in'))
@@ -74,11 +44,9 @@ o.default = primary
 o.datatype = ufloat
 o.rmempty = false
 
-
-
 o = s:option(ListValue, 'transparency', translate('[Light mode] Transparency'), translate('0 transparent - 1 opaque ; ( Suggest: transparent: 0 or translucent preset: 0.5 )'))
 for _, v in ipairs(transparency_sets) do
-    o:value(v)
+	o:value(v)
 end
 o.default = blur_opacity
 o.datatype = ufloat
@@ -96,7 +64,7 @@ o.rmempty = false
 
 o = s:option(ListValue, 'transparency_dark', translate('[Dark mode] Transparency'), translate('0 transparent - 1 opaque ; ( Suggest: Black translucent preset: 0.5 )'))
 for _, v in ipairs(transparency_sets) do
-    o:value(v)
+	o:value(v)
 end
 o.default = blur_opacity_dark
 o.datatype = ufloat
@@ -111,14 +79,14 @@ o = s:option(Button, 'save', translate('Save Changes'))
 o.inputstyle = 'reload'
 
 function br.handle(self, state, data)
-    if (state == FORM_VALID and data.blur ~= nil and data.blur_dark ~= nil and data.transparency ~= nil and data.transparency_dark ~= nil and data.mode ~= nil) then
-        nxfs.writefile('/tmp/aaa', data)
-        for key, value in pairs(data) do
-            uci:set('argon','@global[0]',key,value)
-        end 
-        uci:commit('argon')
-    end
-    return true
+	if (state == FORM_VALID and data.blur ~= nil and data.blur_dark ~= nil and data.transparency ~= nil and data.transparency_dark ~= nil and data.mode ~= nil) then
+		fs.writefile('/tmp/aaa', data)
+		for key, value in pairs(data) do
+			uci:set('argon','@global[0]',key,value)
+		end
+		uci:commit('argon')
+	end
+	return true
 end
 
 return br
