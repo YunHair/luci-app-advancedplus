@@ -1,5 +1,5 @@
 local opacity_sets = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-local ts_sets = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1}
+local transparency_sets = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1}
 local m, s, o
 
 m = Map("advancedplus")
@@ -109,7 +109,7 @@ o.rmempty = false
 o.default = '1'
 
 o = s:option(Value, 'primary_rgbm_ts', translate("Wallpaper transparency"))
-for _, v in ipairs(ts_sets) do
+for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
 o.datatype = ufloat
@@ -131,7 +131,7 @@ o.default='225,112,88'
 o.datatype = ufloat
 
 o = s:option(Value, 'primary_rgbs_ts', translate("Fence background transparency"))
-for _, v in ipairs(ts_sets) do
+for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
 o.datatype = ufloat
