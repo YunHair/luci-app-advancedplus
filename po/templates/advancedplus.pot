@@ -1,13 +1,13 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:50
-#: luasrc/model/cbi/advancedplus/config-argon.lua:65
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "0 Clear - 10 Blur"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:45
-#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
 msgid "0 Transparent - 1 Opaque"
 msgstr ""
 
@@ -15,19 +15,6 @@ msgstr ""
 #: luasrc/model/cbi/advancedplus/advancedset.lua:8
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:9
 msgid "</br>For specific usage, see:"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/advancedipk.lua:6
-msgid ""
-"<a href = 'https://github.com/sirpdboy/luci-app-advancedplus.git' target = "
-"'_blank'>GitHub @sirpdboy/luci-app-advancedplus </a>"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/advancedset.lua:8
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:9
-msgid ""
-"<a href='https://github.com/sirpdboy/luci-app-advancedplus.git' "
-"target='_blank'>GitHub @sirpdboy/luci-app-advancedplus </a>"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancededit.lua:5
@@ -38,8 +25,8 @@ msgid ""
 "as inability to power on!</strong></font><br/>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:40
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
 msgid "A HEX Color"
 msgstr ""
 
@@ -60,22 +47,21 @@ msgstr ""
 msgid "Advanced Edit"
 msgstr ""
 
+#: luasrc/controller/advancedplus.lua:11
+msgid "Advanced Plus"
+msgstr ""
+
 #: luasrc/controller/advancedplus.lua:15
 #: luasrc/model/cbi/advancedplus/advancedset.lua:5
 msgid "Advanced Setting"
 msgstr ""
 
-#: luasrc/controller/advancedplus.lua:11
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:49
 msgid "Advanced plus"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:37
 msgid "Allow TTYD external network access"
-msgstr ""
-
-#: luasrc/controller/advancedplus.lua:21
-msgid "Argon Theme Config"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:7
@@ -94,7 +80,7 @@ msgstr ""
 msgid "Backup / Flash"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:28
+#: luasrc/model/cbi/advancedplus/config-argon.lua:27
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:18
 msgid "Bing Wallpaper"
 msgstr ""
@@ -112,7 +98,7 @@ msgid "Cancel background glass fence special effects"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:74
-msgid "Care mode (large font)"
+msgid "Care Mode (large font)"
 msgstr ""
 
 #: luasrc/view/advancedplus/other_upload.htm:2
@@ -129,16 +115,16 @@ msgstr ""
 msgid "Click to execute"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:29
+#: luasrc/model/cbi/advancedplus/config-design.lua:28
 msgid "Close navigation bar"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:78
-msgid "Color scheme list"
+msgid "Color Scheme List"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:101
-msgid "Cool Night Time(gray and dark)"
+msgid "Cool Night Time (gray and dark)"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:102
@@ -150,10 +136,6 @@ msgstr ""
 msgid "Create upload file error."
 msgstr ""
 
-#: luasrc/controller/advancedplus.lua:24
-msgid "Design Theme Config"
-msgstr ""
-
 #: luasrc/controller/advancedplus.lua:27
 msgid "Desktop Background Upload"
 msgstr ""
@@ -162,7 +144,7 @@ msgstr ""
 msgid "Disk Man"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:28
+#: luasrc/model/cbi/advancedplus/config-design.lua:27
 msgid "Display navigation bar"
 msgstr ""
 
@@ -173,7 +155,11 @@ msgid ""
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:17
-msgid "Download bandwidth(Mbit/s)"
+msgid "Download bandwidth (Mbit/s)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:85
+msgid "Enable Color Matching"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:35
@@ -184,12 +170,8 @@ msgstr ""
 msgid "Enable QOS automatic optimization strategy (testing function)"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:85
-msgid "Enable color matching"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:107
-msgid "Enable wallpaper"
+msgid "Enable Wallpaper"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:27
@@ -204,12 +186,12 @@ msgstr ""
 msgid "Fatal on get option,please help in debug"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
-msgid "Fence background transparency"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
+msgid "Fence Background (RGB)"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
-msgid "Fence background(RGB)"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
+msgid "Fence Background Transparency"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:100
@@ -222,26 +204,26 @@ msgstr ""
 msgid "File saved to"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:33
-#: luasrc/model/cbi/advancedplus/config-design.lua:20
+#: luasrc/model/cbi/advancedplus/config-argon.lua:32
+#: luasrc/model/cbi/advancedplus/config-design.lua:19
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:90
 msgid "Follow System"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:35
-#: luasrc/model/cbi/advancedplus/config-design.lua:22
+#: luasrc/model/cbi/advancedplus/config-argon.lua:34
+#: luasrc/model/cbi/advancedplus/config-design.lua:21
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:92
 msgid "Force Dark"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:34
-#: luasrc/model/cbi/advancedplus/config-design.lua:21
+#: luasrc/model/cbi/advancedplus/config-argon.lua:33
+#: luasrc/model/cbi/advancedplus/config-design.lua:20
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:91
 msgid "Force Light"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:50
-#: luasrc/model/cbi/advancedplus/config-argon.lua:65
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "Frosted Glass Radius"
 msgstr ""
 
@@ -249,8 +231,8 @@ msgstr ""
 msgid "Grant UCI access for luci-app-advancedplus"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:21
-#: luasrc/model/cbi/advancedplus/config-design.lua:14
+#: luasrc/model/cbi/advancedplus/config-argon.lua:20
+#: luasrc/model/cbi/advancedplus/config-design.lua:13
 msgid "Here you can adjust various theme settings. [Recommend Chrome]"
 msgstr ""
 
@@ -258,7 +240,7 @@ msgstr ""
 msgid "Hide Wizard"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:43
+#: luasrc/model/cbi/advancedplus/config-design.lua:42
 msgid "Homeproxy by default"
 msgstr ""
 
@@ -285,10 +267,6 @@ msgid ""
 "set independently."
 msgstr ""
 
-#: luasrc/controller/advancedplus.lua:18
-msgid "KuCat Theme Config"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:57
 msgid "LED Configuration"
 msgstr ""
@@ -298,7 +276,7 @@ msgstr ""
 msgid "Loading plugins"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:27
+#: luasrc/model/cbi/advancedplus/config-argon.lua:26
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:15
 msgid "Local Wallpaper"
 msgstr ""
@@ -314,7 +292,7 @@ msgid "Login Background Upload"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:95
-msgid "Main Background color(RGB)"
+msgid "Main Background Color (RGB)"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:97
@@ -330,12 +308,12 @@ msgstr ""
 msgid "Mount Points"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:34
-msgid "Navigation bar proxy"
+#: luasrc/model/cbi/advancedplus/config-design.lua:33
+msgid "Navigation Bar Proxy"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:27
-msgid "Navigation bar setting"
+#: luasrc/model/cbi/advancedplus/config-design.lua:26
+msgid "Navigation Bar Setting"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:27
@@ -368,8 +346,8 @@ msgstr ""
 msgid "Perform operation"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:40
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
 msgid "Primary Color"
 msgstr ""
 
@@ -412,8 +390,8 @@ msgstr ""
 msgid "Sandy Brown"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:70
-#: luasrc/model/cbi/advancedplus/config-design.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:69
+#: luasrc/model/cbi/advancedplus/config-design.lua:44
 msgid "Save Changes"
 msgstr ""
 
@@ -490,7 +468,7 @@ msgid ""
 "design themes can be set.<br>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-design.lua:32
+#: luasrc/model/cbi/advancedplus/config-design.lua:31
 msgid "The navigation bar is display by default"
 msgstr ""
 
@@ -500,20 +478,22 @@ msgid ""
 "considered a comment, Remove (;) and enable the specified option."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:21
-#: luasrc/model/cbi/advancedplus/config-design.lua:14
+#: luasrc/controller/advancedplus.lua:24
+#: luasrc/controller/advancedplus.lua:18 luasrc/controller/advancedplus.lua:21
+#: luasrc/model/cbi/advancedplus/config-argon.lua:20
+#: luasrc/model/cbi/advancedplus/config-design.lua:13
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:6
 msgid "Theme Config"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:32
-#: luasrc/model/cbi/advancedplus/config-design.lua:19
+#: luasrc/model/cbi/advancedplus/config-argon.lua:31
+#: luasrc/model/cbi/advancedplus/config-design.lua:18
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:89
-msgid "Theme mode"
+msgid "Theme Mode"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:83
-msgid "Theme name"
+msgid "Theme Name"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:8
@@ -536,8 +516,8 @@ msgstr ""
 msgid "Tomato Red"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:45
-#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
 msgid "Transparency"
 msgstr ""
 
@@ -561,7 +541,7 @@ msgid "Upload (Free:"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:21
-msgid "Upload bandwidth(Mbit/s)"
+msgid "Upload bandwidth (Mbit/s)"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:29
@@ -573,7 +553,11 @@ msgstr ""
 msgid "Waiting,(executing)..."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:26
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
+msgid "Wallpaper Blur Radius"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:25
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
 msgid "Wallpaper Source"
 msgstr ""
@@ -582,27 +566,23 @@ msgstr ""
 msgid "Wallpaper Synchronization"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
-msgid "Wallpaper blur radius"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:111
-msgid "Wallpaper transparency"
+msgid "Wallpaper Transparency"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:38
-#: luasrc/model/cbi/advancedplus/config-design.lua:25
+#: luasrc/model/cbi/advancedplus/config-argon.lua:37
+#: luasrc/model/cbi/advancedplus/config-design.lua:24
 msgid "You can choose Theme color mode here"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:60
-#: luasrc/model/cbi/advancedplus/config-argon.lua:65
-msgid "[Dark mode]"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
+msgid "[Dark Mode]"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:40
-#: luasrc/model/cbi/advancedplus/config-argon.lua:45
-#: luasrc/model/cbi/advancedplus/config-argon.lua:50
-msgid "[Light mode]"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+msgid "[Light Mode]"
 msgstr ""
