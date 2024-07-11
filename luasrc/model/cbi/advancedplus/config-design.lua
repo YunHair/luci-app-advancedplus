@@ -24,8 +24,8 @@ o.rmempty = false
 o.description = translate("You can choose Theme color mode here")
 
 o = s:option(ListValue, 'navbar', translate("Navigation Bar Setting"))
-o:value('display', translate("Display navigation bar"))
-o:value('close', translate("Close navigation bar"))
+o:value('display', translate("Display Navigation Bar"))
+o:value('close', translate("Close Navigation Bar"))
 o.default = navbar
 o.rmempty = false
 o.description = translate("The navigation bar is display by default")

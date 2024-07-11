@@ -6,7 +6,7 @@ m.title = translate("Loading plugins")
 m.description = translate("Choose to load and install the app store, DOCKER, all drivers, etc")..translate("</br>For specific usage, see:").."<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>"
 m.apply_on_parse = true
 
-s = m:section(TypedSection, "basic", "")
+s = m:section(TypedSection, "basic")
 s.anonymous = true
 
 o = s:option(ListValue, 'select_ipk', translate("Select the type of loading"))

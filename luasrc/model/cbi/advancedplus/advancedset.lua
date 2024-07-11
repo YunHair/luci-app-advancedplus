@@ -7,7 +7,7 @@ m.description = translate("The enhanced version of the original advanced setting
 translate("At the same time, important plugin parameters can be compiled. At the same time, some system parameters can also be set, such as display and hide settings.")..
 translate("</br>For specific usage, see:").."<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>"
 
-s = m:section(TypedSection, "basic", translate("Settings"))
+s = m:section(TypedSection, "basic")
 s.anonymous = true
 
 o = s:option(Flag, "qos", translate("Qos automatic optimization"), translate("Enable QOS automatic optimization strategy (testing function)"))

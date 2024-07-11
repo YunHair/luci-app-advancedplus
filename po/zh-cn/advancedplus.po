@@ -4,12 +4,12 @@ msgstr "Content-Type: text/plain; charset=UTF-8\n"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 #: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "0 Clear - 10 Blur"
-msgstr ""
+msgstr "0 清晰 - 10 模糊"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:44
 #: luasrc/model/cbi/advancedplus/config-argon.lua:59
 msgid "0 Transparent - 1 Opaque"
-msgstr ""
+msgstr "0 最透明 - 1 不透明"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
 #: luasrc/model/cbi/advancedplus/advancedset.lua:8
@@ -23,12 +23,12 @@ msgid ""
 "unless you know what you are doing, please do not easily modify these "
 "configuration documents. Incorrect configuration may result in errors such "
 "as inability to power on!</strong></font><br/>"
-msgstr ""
+msgstr "<font color=\"Red\"><strong>配置文档是直接编辑的除非你知道自己在干什么，否则请不要轻易修改这些配置文档！配置不正确可能会导致不能开机等错误！</strong></font><br/>"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:39
 #: luasrc/model/cbi/advancedplus/config-argon.lua:54
 msgid "A HEX Color"
-msgstr ""
+msgstr "十六进制颜色值"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:25
 msgid "Accessing using HTTPS"
@@ -40,7 +40,7 @@ msgstr "添加安卓主机名映射"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:51
 msgid "Administration"
-msgstr ""
+msgstr "管理权"
 
 #: luasrc/controller/advancedplus.lua:14
 #: luasrc/model/cbi/advancedplus/advancededit.lua:5
@@ -49,7 +49,7 @@ msgstr "进阶参数编辑"
 
 #: luasrc/controller/advancedplus.lua:11
 msgid "Advanced Plus"
-msgstr ""
+msgstr "进阶设置"
 
 #: luasrc/controller/advancedplus.lua:15
 #: luasrc/model/cbi/advancedplus/advancedset.lua:5
@@ -80,20 +80,20 @@ msgstr "壁纸文件列表"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:58
 msgid "Backup / Flash"
-msgstr ""
+msgstr "备份与升级"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:27
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:18
 msgid "Bing Wallpaper"
-msgstr ""
+msgstr "Bing 壁纸"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:19
 msgid "Bird 4K Wallpaper"
-msgstr ""
+msgstr "Bing 4K 壁纸"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:100
 msgid "Black Tea Eye Protection Gray"
-msgstr ""
+msgstr "黑茶护眼灰"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:31
 msgid "Cancel background glass fence special effects"
@@ -101,7 +101,7 @@ msgstr "取消背景玻璃栅栏特效"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:74
 msgid "Care Mode (large font)"
-msgstr ""
+msgstr "关怀模式（大字体）"
 
 #: luasrc/view/advancedplus/other_upload.htm:2
 msgid "Choose local file:"
@@ -109,7 +109,7 @@ msgstr "选择本地文件："
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
 msgid "Choose to load and install the app store, DOCKER, all drivers, etc"
-msgstr "选择加载安装应用商店、DOCKER、所有驱动等"
+msgstr "选择加载安装应用商店、Docker、所有驱动等"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:19
 #: luasrc/view/advancedplus/advanced.htm:6
@@ -123,15 +123,15 @@ msgstr "关闭导航栏"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:78
 msgid "Color Scheme List"
-msgstr ""
+msgstr "颜色配置方案列表"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:101
 msgid "Cool Night Time (gray and dark)"
-msgstr ""
+msgstr "炫酷黑夜时空（灰度暗）"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:102
 msgid "Cool Ocean Heart (transparent and bright)"
-msgstr "炫酷海洋之心(透明亮)"
+msgstr "炫酷海洋之心（透明亮）"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:49
 #: luasrc/model/cbi/advancedplus/upload-login.lua:49
@@ -140,29 +140,29 @@ msgstr "创建上传文件失败。"
 
 #: luasrc/controller/advancedplus.lua:27
 msgid "Desktop Background Upload"
-msgstr ""
+msgstr "桌面壁纸上传"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:56
 msgid "Disk Man"
-msgstr ""
+msgstr "磁盘管理"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:27
-msgid "Display navigation bar"
+msgid "Display Navigation Bar"
 msgstr "显示导航栏"
 
 #: luasrc/model/cbi/advancedplus/advancededit.lua:14
 msgid ""
 "Document content, Automatic restart takes effect after saving the "
 "application."
-msgstr ""
+msgstr "文档内容。应用保存后自动重启生效"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:17
 msgid "Download bandwidth (Mbit/s)"
-msgstr ""
+msgstr "下载带宽（Mbit/s）"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:85
 msgid "Enable Color Matching"
-msgstr ""
+msgstr "启用配色方案"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:35
 msgid "Enable Daily Word"
@@ -174,7 +174,7 @@ msgstr "开启QOS自动优化策略（测试功能）"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:107
 msgid "Enable Wallpaper"
-msgstr ""
+msgstr "启用壁纸"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:27
 msgid "Expand Toolbar"
@@ -190,11 +190,11 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:127
 msgid "Fence Background (RGB)"
-msgstr ""
+msgstr "隔栏背景色（RGB）"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:131
 msgid "Fence Background Transparency"
-msgstr ""
+msgstr "隔栏背景透明度"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:100
 #: luasrc/model/cbi/advancedplus/upload-login.lua:100
@@ -227,7 +227,7 @@ msgstr "强制亮色"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 #: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "Frosted Glass Radius"
-msgstr ""
+msgstr "磨砂玻璃模糊半径"
 
 #: root/usr/share/rpcd/acl.d/luci-app-advancedplus.json:3
 msgid "Grant UCI access for luci-app-advancedplus"
@@ -236,7 +236,7 @@ msgstr ""
 #: luasrc/model/cbi/advancedplus/config-argon.lua:20
 #: luasrc/model/cbi/advancedplus/config-design.lua:13
 msgid "Here you can adjust various theme settings. [Recommend Chrome]"
-msgstr ""
+msgstr "这里可以设置主题的各种参数。[建议使用 Chrome]"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:29
 msgid "Hide Wizard"
@@ -244,23 +244,23 @@ msgstr "隐藏设置向导"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:42
 msgid "Homeproxy by default"
-msgstr ""
+msgstr "默认 Homeproxy"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:16
 msgid "Iciba Wallpaper"
-msgstr ""
+msgstr "Iciba 壁纸"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:15
 msgid "Install All drives"
-msgstr "安装全部驱动"
+msgstr "安装 全部驱动"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:14
 msgid "Install Docker"
-msgstr "安装Docker仓库"
+msgstr "安装 Docker"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:13
 msgid "Install iStore"
-msgstr "安装iStore"
+msgstr "安装 iStore"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:23
 msgid ""
@@ -271,7 +271,7 @@ msgstr "登录壁纸与桌面壁纸是否一致，不选择表示桌面壁纸和
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:57
 msgid "LED Configuration"
-msgstr ""
+msgstr "LED配置"
 
 #: luasrc/controller/advancedplus.lua:16
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:5
@@ -281,7 +281,7 @@ msgstr "加载插件"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:26
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:15
 msgid "Local Wallpaper"
-msgstr ""
+msgstr "本地壁纸"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
 msgid ""
@@ -297,11 +297,11 @@ msgstr "登录壁纸上传"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:95
 msgid "Main Background Color (RGB)"
-msgstr ""
+msgstr "主背景色（RGB）"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:97
 msgid "Medium Sea Green"
-msgstr ""
+msgstr "中海清爽绿"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:101
 #: luasrc/model/cbi/advancedplus/upload-login.lua:101
@@ -310,15 +310,15 @@ msgstr "修改时间"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:55
 msgid "Mount Points"
-msgstr ""
+msgstr "挂载点"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:33
 msgid "Navigation Bar Proxy"
-msgstr ""
+msgstr "导航栏代理"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:26
 msgid "Navigation Bar Setting"
-msgstr ""
+msgstr "导航栏设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:27
 msgid "No backend menu required"
@@ -331,12 +331,12 @@ msgstr "未指定上传文件"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:27
 msgid "OPENWRT backend and SSH login do not display shortcut menus"
-msgstr "OPENWRT后台和SSH登录不显示快捷菜单"
+msgstr "OpenWRT后台和SSH登录不显示快捷菜单"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:25
 #: luasrc/model/cbi/advancedplus/upload-login.lua:25
 msgid "Only JPG, PNG, and GIF files can be uploaded."
-msgstr ""
+msgstr "只能上传JPG、PNG和GIF格式的文件。"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:25
 msgid "Open the address in the background and use HTTPS for secure access"
@@ -344,7 +344,7 @@ msgstr "打开后台地址用https安全访问"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:40
 msgid "Overview"
-msgstr ""
+msgstr "概览"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:18
 msgid "Perform operation"
@@ -353,23 +353,23 @@ msgstr "执行操作"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:39
 #: luasrc/model/cbi/advancedplus/config-argon.lua:54
 msgid "Primary Color"
-msgstr ""
+msgstr "主色调"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:43
 msgid "Processes"
-msgstr ""
+msgstr "系统进程"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:13
 msgid "Qos automatic optimization"
-msgstr "Qos自动优化"
+msgstr "QoS自动优化"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:44
 msgid "Realtime Graphs"
-msgstr ""
+msgstr "实时信息"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:60
 msgid "Reboot"
-msgstr ""
+msgstr "重启"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:103
 #: luasrc/model/cbi/advancedplus/upload-login.lua:103
@@ -380,19 +380,19 @@ msgstr "移除"
 msgid ""
 "Resolve the issue of Android native TV not being able to connect to WiFi for "
 "the first time"
-msgstr "解决安卓原生TV首次连不上wifi的问题"
+msgstr "解决安卓原生TV首次连不上WiFi的问题"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:41
 msgid "Routing"
-msgstr ""
+msgstr "路由"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:96
 msgid "Royal Blue"
-msgstr ""
+msgstr "皇家高端蓝"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:98
 msgid "Sandy Brown"
-msgstr ""
+msgstr "桑迪布朗黄"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:69
 #: luasrc/model/cbi/advancedplus/config-design.lua:44
@@ -401,11 +401,11 @@ msgstr "保存更改"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:59
 msgid "Scheduled Reboot"
-msgstr ""
+msgstr "定时重启"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:54
 msgid "Scheduled Tasks"
-msgstr ""
+msgstr "计划任务"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:12
 msgid "Select the type of loading"
@@ -422,7 +422,7 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:40
 msgid "Set firewall wan to open"
-msgstr "设置防火墙wan打开"
+msgstr "设置防火墙WAN打开"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:10
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:11
@@ -440,27 +440,27 @@ msgstr "大小"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:52
 msgid "Software"
-msgstr ""
+msgstr "软件包"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:53
 msgid "Startup"
-msgstr ""
+msgstr "启动项"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:39
 msgid "Status Homekey Settings"
-msgstr ""
+msgstr "状态相关快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:50
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:42
 msgid "System Log"
-msgstr ""
+msgstr "系统日志"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:48
 msgid "System Userkey Settings"
-msgstr ""
+msgstr "系统相关快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
 msgid "TSO optimization for network card interruption"
@@ -473,8 +473,8 @@ msgid ""
 "without the need to upload them separately. Color schemes for kucat/Agron/"
 "design themes can be set.<br>"
 msgstr ""
-"原高级设置的加强版，可以统一设置管理 kucat/Agron/Opentopd三个主题登录壁纸图"
-"片，无须分开上传，可以设置kucat/Agron/design主题的颜色方案<br>"
+"原高级设置的加强版，可以统一设置管理 KuCat/Agron/Opentopd三个主题登录壁纸图"
+"片，无须分开上传，可以设置KuCat/Agron/Design主题的颜色方案<br>"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:31
 msgid "The navigation bar is display by default"
@@ -484,7 +484,7 @@ msgstr "默认显示导航栏"
 msgid ""
 "The starting number symbol (#) or each line of the semicolon (;) is "
 "considered a comment, Remove (;) and enable the specified option."
-msgstr ""
+msgstr "开头的数字符号（＃）或分号的每一行（;）被视为注释，删除（;）启用指定选项。"
 
 #: luasrc/controller/advancedplus.lua:24 luasrc/controller/advancedplus.lua:18
 #: luasrc/controller/advancedplus.lua:21
@@ -492,17 +492,17 @@ msgstr ""
 #: luasrc/model/cbi/advancedplus/config-design.lua:13
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:6
 msgid "Theme Config"
-msgstr ""
+msgstr "主题设置"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:31
 #: luasrc/model/cbi/advancedplus/config-design.lua:18
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:89
 msgid "Theme Mode"
-msgstr ""
+msgstr "主题模式"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:83
 msgid "Theme Name"
-msgstr ""
+msgstr "主题名字"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:8
 msgid ""
@@ -512,11 +512,11 @@ msgid ""
 "image."
 msgstr ""
 "预置6种颜色方案，只可设置桌面壁纸图显示与否。自定义的颜色值是RGB值如："
-"255,0,0(表示红色)，模糊半径为0则画面无卡顿。"
+"255,0,0（表示红色），模糊半径为0则画面无卡顿。"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:31
 msgid "Thin Mode"
-msgstr ""
+msgstr "简洁模式"
 
 #: luasrc/model/cbi/advancedplus/advancededit.lua:14
 msgid "This page is about configuration"
@@ -524,26 +524,26 @@ msgstr "本页是配置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:99
 msgid "Tomato Red"
-msgstr ""
+msgstr "番茄别样红"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:44
 #: luasrc/model/cbi/advancedplus/config-argon.lua:59
 msgid "Transparency"
-msgstr ""
+msgstr "透明度"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
 msgid ""
 "Turn off the TSO parameters of the INTEL225 network card to improve network "
 "interruption"
-msgstr "关闭INTEL225网卡TSO参数，改善网络断流"
+msgstr "关闭Intel 225网卡TSO参数，改善网络断流。"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:17
 msgid "Unsplash Wallpaper"
-msgstr ""
+msgstr "Unsplash 壁纸"
 
 #: luasrc/view/advancedplus/other_upload.htm:4
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:25
 #: luasrc/model/cbi/advancedplus/upload-login.lua:25
@@ -552,12 +552,12 @@ msgstr "上传 (剩余空间："
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:21
 msgid "Upload bandwidth (Mbit/s)"
-msgstr ""
+msgstr "上传带宽（Mbit/s）"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:29
 #: luasrc/model/cbi/advancedplus/upload-login.lua:29
 msgid "Upload file to"
-msgstr ""
+msgstr "文件将上传到"
 
 #: luasrc/view/advancedplus/advanced.htm:53
 msgid "Waiting,(executing)..."
@@ -565,7 +565,7 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:119
 msgid "Wallpaper Blur Radius"
-msgstr ""
+msgstr "壁纸模糊半径"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:25
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
@@ -574,11 +574,11 @@ msgstr "壁纸来源"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:23
 msgid "Wallpaper Synchronization"
-msgstr ""
+msgstr "壁纸同步"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:111
 msgid "Wallpaper Transparency"
-msgstr ""
+msgstr "壁纸透明度"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:37
 #: luasrc/model/cbi/advancedplus/config-design.lua:24
@@ -589,49 +589,10 @@ msgstr "你可以选择喜欢的主题模式"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:59
 #: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "[Dark Mode]"
-msgstr ""
+msgstr "[暗色模式]"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:39
 #: luasrc/model/cbi/advancedplus/config-argon.lua:44
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
-msgstr ""
-
-#~ msgid "Care mode (large font)"
-#~ msgstr "关怀模式(大字体)"
-
-#~ msgid "Color scheme list"
-#~ msgstr "颜色配置方案列表"
-
-#~ msgid "Enable color matching"
-#~ msgstr "启用配色方案"
-
-#~ msgid "Enable wallpaper"
-#~ msgstr "启用壁纸"
-
-#~ msgid "Fence background transparency"
-#~ msgstr "隔栏背景透明度"
-
-#~ msgid "Fence background(RGB)"
-#~ msgstr "隔栏背景色(RGB)"
-
-#~ msgid "KuCat Theme Config"
-#~ msgstr "KuCat主题设置"
-
-#~ msgid "Main Background color(RGB)"
-#~ msgstr "主背景色(RGB)"
-
-#~ msgid "Navigation bar proxy"
-#~ msgstr "导航栏代理"
-
-#~ msgid "Navigation bar setting"
-#~ msgstr "导航栏设置"
-
-#~ msgid "Theme mode"
-#~ msgstr "主题模式"
-
-#~ msgid "Wallpaper blur radius"
-#~ msgstr "壁纸模糊半径"
-
-#~ msgid "Wallpaper transparency"
-#~ msgstr "壁纸透明度"
+msgstr "[亮色模式]"
