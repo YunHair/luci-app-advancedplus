@@ -23,7 +23,10 @@ msgid ""
 "unless you know what you are doing, please do not easily modify these "
 "configuration documents. Incorrect configuration may result in errors such "
 "as inability to power on!</strong></font><br/>"
-msgstr "<font color=\"Red\"><strong>配置文档是直接编辑的除非你知道自己在干什么，否则请不要轻易修改这些配置文档！配置不正确可能会导致不能开机等错误！</strong></font><br/>"
+msgstr ""
+"<font color=\"Red\"><strong>配置文档是直接编辑的除非你知道自己在干什么，否则"
+"请不要轻易修改这些配置文档！配置不正确可能会导致不能开机等错误！</strong></"
+"font><br/>"
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:39
 #: luasrc/model/cbi/advancedplus/config-argon.lua:54
@@ -118,8 +121,8 @@ msgid "Click to execute"
 msgstr "点击执行"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:28
-msgid "Close navigation bar"
-msgstr "关闭导航栏"
+msgid "Close Navigation Bar"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:78
 msgid "Color Scheme List"
@@ -424,11 +427,6 @@ msgstr ""
 msgid "Set firewall wan to open"
 msgstr "设置防火墙WAN打开"
 
-#: luasrc/model/cbi/advancedplus/advancedset.lua:10
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:11
-msgid "Settings"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/advancedset.lua:29
 msgid "Show or hide the setup wizard menu"
 msgstr "显示或者隐藏设置向导菜单"
@@ -484,7 +482,8 @@ msgstr "默认显示导航栏"
 msgid ""
 "The starting number symbol (#) or each line of the semicolon (;) is "
 "considered a comment, Remove (;) and enable the specified option."
-msgstr "开头的数字符号（＃）或分号的每一行（;）被视为注释，删除（;）启用指定选项。"
+msgstr ""
+"开头的数字符号（＃）或分号的每一行（;）被视为注释，删除（;）启用指定选项。"
 
 #: luasrc/controller/advancedplus.lua:24 luasrc/controller/advancedplus.lua:18
 #: luasrc/controller/advancedplus.lua:21
@@ -511,8 +510,8 @@ msgid ""
 "255,0,0 (representing red), and a blur radius of 0 indicates no lag in the "
 "image."
 msgstr ""
-"预置6种颜色方案，只可设置桌面壁纸图显示与否。自定义的颜色值是RGB值如："
-"255,0,0（表示红色），模糊半径为0则画面无卡顿。"
+"预置6种颜色方案，只可设置桌面壁纸图显示与否。自定义的颜色值是RGB值如：255,0,0"
+"（表示红色），模糊半径为0则画面无卡顿。"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:31
 msgid "Thin Mode"
@@ -596,3 +595,6 @@ msgstr "[暗色模式]"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
 msgstr "[亮色模式]"
+
+#~ msgid "Close navigation bar"
+#~ msgstr "关闭导航栏"

@@ -116,7 +116,7 @@ msgid "Click to execute"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:28
-msgid "Close navigation bar"
+msgid "Close Navigation Bar"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:78
@@ -145,7 +145,7 @@ msgid "Disk Man"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:27
-msgid "Display navigation bar"
+msgid "Display Navigation Bar"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancededit.lua:14
@@ -416,11 +416,6 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:40
 msgid "Set firewall wan to open"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/advancedset.lua:10
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:11
-msgid "Settings"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:29
