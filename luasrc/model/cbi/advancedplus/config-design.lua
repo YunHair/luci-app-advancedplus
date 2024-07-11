@@ -11,7 +11,7 @@ end
 
 local br, s, o
 
-br = SimpleForm('config', translate("Design Config"), translate("Here you can adjust various theme settings. [Recommend Chrome]"))
+br = SimpleForm('config', "Design"..translate("Theme Config"), translate("Here you can adjust various theme settings. [Recommend Chrome]"))
 br.reset = false
 br.submit = false
 s = br:section(SimpleSection)
@@ -47,7 +47,7 @@ o.inputstyle = 'reload'
 
 function br.handle(self, state, data)
 	if (state == FORM_VALID and data.mode ~= nil and data.navbar ~= nil and data.navbar_proxy ~= nil) then
-		fs.writefile('/tmp/aaa', data)
+		fs.writefile('/tmp/design.tmp', data)
 		for key, value in pairs(data) do
 			uci:set('design','@global[0]',key,value)
 		end
