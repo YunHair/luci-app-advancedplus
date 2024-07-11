@@ -122,7 +122,7 @@ msgstr "点击执行"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:28
 msgid "Close Navigation Bar"
-msgstr ""
+msgstr "关闭导航栏"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:78
 msgid "Color Scheme List"
@@ -595,6 +595,3 @@ msgstr "[暗色模式]"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
 msgstr "[亮色模式]"
-
-#~ msgid "Close navigation bar"
-#~ msgstr "关闭导航栏"
