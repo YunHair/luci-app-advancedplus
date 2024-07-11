@@ -5,7 +5,7 @@ m = Map("advancedplus")
 m.title = translate("Advanced Setting")
 m.description = translate("The enhanced version of the original advanced settings allows for unified setting and management of background images for kucat/Agron/Opentopd themes, without the need to upload them separately. Color schemes for kucat/Agron/design themes can be set.<br>")..
 translate("At the same time, important plugin parameters can be compiled. At the same time, some system parameters can also be set, such as display and hide settings.")..
-translate("</br>For specific usage, see:")..translate("<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>")
+translate("</br>For specific usage, see:").."<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>"
 
 s = m:section(TypedSection, "basic", translate("Settings"))
 s.anonymous = true
@@ -14,11 +14,11 @@ o = s:option(Flag, "qos", translate("Qos automatic optimization"), translate("En
 o.default = "0"
 o.rmempty = false
 
-dl = s:option(Value, "download", translate("Download bandwidth(Mbit/s)"))
+dl = s:option(Value, "download", translate("Download bandwidth (Mbit/s)"))
 dl.default = '200'
 dl:depends("qos", true)
 
-ul = s:option(Value, "upload", translate("Upload bandwidth(Mbit/s)"))
+ul = s:option(Value, "upload", translate("Upload bandwidth (Mbit/s)"))
 ul.default = '30'
 ul:depends("qos", true)
 

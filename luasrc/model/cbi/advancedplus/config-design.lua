@@ -1,6 +1,5 @@
 local fs = require 'nixio.fs'
 local uci = luci.model.uci.cursor()
-local name = 'design'
 
 local mode, navbar, navbar_proxy
 if fs.access('/etc/config/design') then
@@ -16,7 +15,7 @@ br.reset = false
 br.submit = false
 s = br:section(SimpleSection)
 
-o = s:option(ListValue, 'mode', translate("Theme mode"))
+o = s:option(ListValue, 'mode', translate("Theme Mode"))
 o:value('normal', translate("Follow System"))
 o:value('light', translate("Force Light"))
 o:value('dark', translate("Force Dark"))
@@ -24,14 +23,14 @@ o.default = mode
 o.rmempty = false
 o.description = translate("You can choose Theme color mode here")
 
-o = s:option(ListValue, 'navbar', translate("Navigation bar setting"))
+o = s:option(ListValue, 'navbar', translate("Navigation Bar Setting"))
 o:value('display', translate("Display navigation bar"))
 o:value('close', translate("Close navigation bar"))
 o.default = navbar
 o.rmempty = false
 o.description = translate("The navigation bar is display by default")
 
-o = s:option(ListValue, 'navbar_proxy', translate("Navigation bar proxy"))
+o = s:option(ListValue, 'navbar_proxy', translate("Navigation Bar Proxy"))
 o:value('helloworld', 'helloworld')
 o:value('homeproxy', 'homeproxy')
 o:value('mihomo', 'mihomo')

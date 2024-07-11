@@ -2,7 +2,6 @@ local fs = require 'nixio.fs'
 local ipkg = require 'luci.model.ipkg'
 local util = require 'nixio.util'
 local uci = luci.model.uci.cursor()
-local name = 'argon'
 
 local primary, dark_primary, blur, blur_dark, transparency, transparency_dark, mode, online_wallpaper
 if fs.access('/etc/config/argon') then
@@ -29,7 +28,7 @@ o:value('bing', translate("Bing Wallpaper"))
 o.default = online_wallpaper
 o.rmempty = false
 
-o = s:option(ListValue, 'mode', translate("Theme mode"))
+o = s:option(ListValue, 'mode', translate("Theme Mode"))
 o:value('normal', translate("Follow System"))
 o:value('light', translate("Force Light"))
 o:value('dark', translate("Force Dark"))
@@ -37,32 +36,32 @@ o.default = mode
 o.rmempty = false
 o.description = translate("You can choose Theme color mode here")
 
-o = s:option(Value, 'primary', translate("[Light mode]")..translate(" Primary Color"), translate("A HEX Color"))
+o = s:option(Value, 'primary', translate("[Light Mode]")..translate(" Primary Color"), translate("A HEX Color"))
 o.default = primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency', translate("[Light mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
+o = s:option(ListValue, 'transparency', translate("[Light Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
 o.default = transparency
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'blur', translate("[Light mode]")..translate(" Frosted Glass Radius"), translate("0 Clear - 10 Blur"))
+o = s:option(Value, 'blur', translate("[Light Mode]")..translate(" Frosted Glass Radius"), translate("0 Clear - 10 Blur"))
 o.default = blur
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'dark_primary', translate("[Dark mode]")..translate(" Primary Color"), translate("A HEX Color"))
+o = s:option(Value, 'dark_primary', translate("[Dark Mode]")..translate(" Primary Color"), translate("A HEX Color"))
 o.default = dark_primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency_dark', translate("[Dark mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
+o = s:option(ListValue, 'transparency_dark', translate("[Dark Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
 o.default = transparency_dark
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(Value, 'blur_dark', translate("[Dark mode]")..translate(" Frosted Glass Radius"), translate("0 Clear - 10 Blur"))
+o = s:option(Value, 'blur_dark', translate("[Dark Mode]")..translate(" Frosted Glass Radius"), translate("0 Clear - 10 Blur"))
 o.default = blur_dark
 o.datatype = ufloat
 o.rmempty = false

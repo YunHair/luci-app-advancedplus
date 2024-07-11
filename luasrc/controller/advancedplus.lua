@@ -8,20 +8,20 @@ function index()
 	if not fs.access("/etc/config/advancedplus") then return end
 
 	local page
-	page = entry({"admin", "system", "advancedplus"}, alias("admin", "system", "advancedplus", "advancededit"), _("Advanced plus"), 61)
+	page = entry({"admin", "system", "advancedplus"}, alias("admin", "system", "advancedplus", "advancededit"), _("Advanced Plus"), 61)
 	page.dependent = true
 	page.acl_depends = { "luci-app-advancedplus" }
 	entry({"admin", "system", "advancedplus", "advancededit"}, cbi("advancedplus/advancededit"), _("Advanced Edit"), 10).leaf = true
 	entry({"admin", "system", "advancedplus", "advancedset"}, cbi("advancedplus/advancedset"), _("Advanced Setting"), 20).leaf = true
 	entry({"admin", "system", "advancedplus", "advancedipk"}, cbi("advancedplus/advancedipk", {hideapplybtn = true, hidesavebtn = true, hideresetbtn = true}), _("Loading plugins"), 30).leaf = true
 	if fs.access('/www/luci-static/kucat/css/style.css') then
-		entry({"admin", "system", "advancedplus", "config-kucat"}, cbi("advancedplus/config-kucat"), _("KuCat Theme Config"), 40).leaf = true
+		entry({"admin", "system", "advancedplus", "config-kucat"}, cbi("advancedplus/config-kucat"), "KuCat".._("Theme Config"), 40).leaf = true
 	end
 	if fs.access('/www/luci-static/argon/css/cascade.css') then
-		entry({"admin", "system", "advancedplus", "config-argon"}, form("advancedplus/config-argon"), _("Argon Theme Config"), 50).leaf = true
+		entry({"admin", "system", "advancedplus", "config-argon"}, form("advancedplus/config-argon"), "Argon".._("Theme Config"), 50).leaf = true
 	end
 	if fs.access('/www/luci-static/design/css/style.css') then
-		entry({"admin", "system", "advancedplus", "config-design"}, form("advancedplus/config-design"), _("Design Theme Config"), 60).leaf = true
+		entry({"admin", "system", "advancedplus", "config-design"}, form("advancedplus/config-design"), "Design".._("Theme Config"), 60).leaf = true
 	end
 	entry({"admin", "system", "advancedplus", "upload-login"}, form("advancedplus/upload-login"), _("Login Background Upload"), 70).leaf = true
 	entry({"admin", "system", "advancedplus", "upload-desktop"}, form("advancedplus/upload-desktop"), _("Desktop Background Upload"), 80).leaf = true

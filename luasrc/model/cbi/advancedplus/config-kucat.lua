@@ -6,7 +6,7 @@ m = Map("advancedplus")
 m.title = "KuCat"..translate("Theme Config")
 m.description = translate("Set and manage features such as KuCat themed background wallpaper, main background color, partition background, transparency, blur, toolbar retraction and shortcut pointing.</br>")..
 translate("There are 6 preset color schemes, and only the desktop background image can be set to display or not. The custom color values are RGB values such as 255,0,0 (representing red), and a blur radius of 0 indicates no lag in the image.")..
-translate("</br>For specific usage, see:")..translate("<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>")
+translate("</br>For specific usage, see:").."<a href=\'https://github.com/sirpdboy/luci-app-advancedplus.git' target=\'_blank\'>GitHub @sirpdboy/luci-app-advancedplus </a>"
 
 s = m:section(TypedSection, "basic", translate("Settings"))
 s.anonymous = true
@@ -71,44 +71,44 @@ o:value('passwall2', 'passwall2')
 o.default = 'homeproxy'
 o.rmempty = false
 
-o = s:option(Flag, "fontmode", translate("Care mode (large font)"))
+o = s:option(Flag, "fontmode", translate("Care Mode (large font)"))
 o.rmempty = false
 o.default = '0'
 
-s = m:section(TypedSection, "theme", translate("Color scheme list"))
+s = m:section(TypedSection, "theme", translate("Color Scheme List"))
 s.template = "cbi/tblsection"
 s.anonymous = true
 s.addremove = true
 
-o = s:option(Value, 'name', translate("Theme name"))
+o = s:option(Value, 'name', translate("Theme Name"))
 
-o = s:option(Flag, "use", translate("Enable color matching"))
+o = s:option(Flag, "use", translate("Enable Color Matching"))
 o.rmempty = false
 o.default = '1'
 
-o = s:option(ListValue, 'mode', translate("Theme mode"))
+o = s:option(ListValue, 'mode', translate("Theme Mode"))
 o:value('normal', translate("Follow System"))
 o:value('light', translate("Force Light"))
 o:value('dark', translate("Force Dark"))
 o.default = 'normal'
 
-o = s:option(Value, 'primary_rgbm', translate("Main Background color(RGB)"))
+o = s:option(Value, 'primary_rgbm', translate("Main Background Color (RGB)"))
 o:value("blue", translate("Royal Blue"))
 o:value("green", translate("Medium Sea Green"))
 o:value("orange", translate("Sandy Brown"))
 o:value("red", translate("Tomato Red"))
 o:value("black", translate("Black Tea Eye Protection Gray"))
-o:value("gray", translate("Cool Night Time(gray and dark)"))
+o:value("gray", translate("Cool Night Time (gray and dark)"))
 o:value("bluets", translate("Cool Ocean Heart (transparent and bright)"))
 o.default='blue'
 o.datatype = ufloat
 o.default='20,109,179'
 
-o = s:option(Flag, "wallpaper", translate("Enable wallpaper"))
+o = s:option(Flag, "wallpaper", translate("Enable Wallpaper"))
 o.rmempty = false
 o.default = '0'
 
-o = s:option(Value, 'primary_rgbm_ts', translate("Wallpaper transparency"))
+o = s:option(Value, 'primary_rgbm_ts', translate("Wallpaper Transparency"))
 for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
@@ -116,7 +116,7 @@ o.datatype = ufloat
 o.rmempty = false
 o.default='0.9'
 
-o = s:option(Value, 'primary_opacity', translate("Wallpaper blur radius"))
+o = s:option(Value, 'primary_opacity', translate("Wallpaper Blur Radius"))
 for _, v in ipairs(opacity_sets) do
 	o:value(v)
 end
@@ -124,11 +124,11 @@ o.datatype = ufloat
 o.rmempty = false
 o.default='0'
 
-o = s:option(Value, 'primary_rgbs', translate("Fence background(RGB)"))
+o = s:option(Value, 'primary_rgbs', translate("Fence Background (RGB)"))
 o.default='28,66,188'
 o.datatype = ufloat
 
-o = s:option(Value, 'primary_rgbs_ts', translate("Fence background transparency"))
+o = s:option(Value, 'primary_rgbs_ts', translate("Fence Background Transparency"))
 for _, v in ipairs(transparency_sets) do
 	o:value(v)
 end
