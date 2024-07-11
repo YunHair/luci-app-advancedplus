@@ -1,14 +1,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
-msgid "0 clear - 10 blur"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
+msgid "0 Clear - 10 Blur"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
-msgid "0 transparent - 1 opaque"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+msgid "0 Transparent - 1 Opaque"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
@@ -38,8 +38,8 @@ msgid ""
 "as inability to power on!</strong></font><br/>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
 msgid "A HEX Color"
 msgstr ""
 
@@ -74,10 +74,6 @@ msgstr "进阶设置"
 msgid "Allow TTYD external network access"
 msgstr "允许TTYD外网访问"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:23
-msgid "Argon Config"
-msgstr "Argon主题设置"
-
 #: luasrc/controller/advancedplus.lua:21
 msgid "Argon Theme Config"
 msgstr ""
@@ -91,26 +87,6 @@ msgstr ""
 "同时可以编译重要的插件参数。同时还可以设置部分系统参数，如：显示隐藏设置设置"
 "等功能。"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:90
-msgid "Auto"
-msgstr "自动"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:18
-msgid "Auto download Bing wallpaper"
-msgstr "自动下载Bing每日壁纸"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
-msgid "Auto download Bird 4K wallpaper"
-msgstr "自动下载360小鸟4K高清壁纸(每日4千张随机选)"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:16
-msgid "Auto download Iciba wallpaper"
-msgstr "自动下载词霸每日壁纸"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:17
-msgid "Auto download unsplash wallpaper"
-msgstr "自动下载unsplash壁纸"
-
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:95
 #: luasrc/model/cbi/advancedplus/upload-login.lua:95
 msgid "Background file list"
@@ -120,17 +96,18 @@ msgstr "壁纸文件列表"
 msgid "Backup / Flash"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:30
-msgid "Bing Wallpapers"
-msgstr "Bing 壁纸"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:28
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:18
+msgid "Bing Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
+msgid "Bird 4K Wallpaper"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:100
-msgid "Black tea eye protection gray"
-msgstr "黑茶护眼灰"
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:29
-msgid "Built-in"
-msgstr "内建"
+msgid "Black Tea Eye Protection Gray"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:31
 msgid "Cancel background glass fence special effects"
@@ -162,26 +139,18 @@ msgstr "关闭导航栏"
 msgid "Color scheme list"
 msgstr "颜色配置方案列表"
 
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:101
+msgid "Cool Night Time(gray and dark)"
+msgstr ""
+
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:102
 msgid "Cool Ocean Heart (transparent and bright)"
 msgstr "炫酷海洋之心(透明亮)"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:101
-msgid "Cool night time(gray and dark)"
-msgstr "炫酷黑夜时空(灰度暗)"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:49
 #: luasrc/model/cbi/advancedplus/upload-login.lua:49
 msgid "Create upload file error."
 msgstr "创建上传文件失败。"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:92
-msgid "Dark"
-msgstr "暗色"
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:14
-msgid "Design Config"
-msgstr "Design主题设置"
 
 #: luasrc/controller/advancedplus.lua:24
 msgid "Design Theme Config"
@@ -237,11 +206,11 @@ msgstr "展开或者收缩导航栏"
 msgid "Fatal on get option,please help in debug"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:133
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
 msgid "Fence background transparency"
 msgstr "隔栏背景透明度"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:129
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
 msgid "Fence background(RGB)"
 msgstr "隔栏背景色(RGB)"
 
@@ -255,23 +224,26 @@ msgstr "文件名"
 msgid "File saved to"
 msgstr "文件保存到"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:35
+#: luasrc/model/cbi/advancedplus/config-argon.lua:33
 #: luasrc/model/cbi/advancedplus/config-design.lua:20
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:90
 msgid "Follow System"
 msgstr "跟随系统"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:37
+#: luasrc/model/cbi/advancedplus/config-argon.lua:35
 #: luasrc/model/cbi/advancedplus/config-design.lua:22
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:92
 msgid "Force Dark"
 msgstr "强制暗色"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:36
+#: luasrc/model/cbi/advancedplus/config-argon.lua:34
 #: luasrc/model/cbi/advancedplus/config-design.lua:21
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:91
 msgid "Force Light"
 msgstr "强制亮色"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
 msgid "Frosted Glass Radius"
 msgstr ""
 
@@ -279,7 +251,7 @@ msgstr ""
 msgid "Grant UCI access for luci-app-advancedplus"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:23
+#: luasrc/model/cbi/advancedplus/config-argon.lua:21
 #: luasrc/model/cbi/advancedplus/config-design.lua:14
 msgid "Here you can adjust various theme settings. [Recommend Chrome]"
 msgstr ""
@@ -290,6 +262,10 @@ msgstr "隐藏设置向导"
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:43
 msgid "Homeproxy by default"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:16
+msgid "Iciba Wallpaper"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:15
@@ -312,7 +288,6 @@ msgid ""
 msgstr "登录壁纸与桌面壁纸是否一致，不选择表示桌面壁纸和登录壁纸独立设置。"
 
 #: luasrc/controller/advancedplus.lua:18
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:6
 msgid "KuCat Theme Config"
 msgstr "KuCat主题设置"
 
@@ -320,18 +295,15 @@ msgstr "KuCat主题设置"
 msgid "LED Configuration"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:91
-msgid "Light"
-msgstr "亮色"
-
 #: luasrc/controller/advancedplus.lua:16
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:5
 msgid "Loading plugins"
 msgstr "加载插件"
 
+#: luasrc/model/cbi/advancedplus/config-argon.lua:27
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:15
-msgid "Local wallpaper"
-msgstr "本地壁纸库"
+msgid "Local Wallpaper"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
 msgid ""
@@ -350,8 +322,8 @@ msgid "Main Background color(RGB)"
 msgstr "主背景色(RGB)"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:97
-msgid "MediumSeaGreen"
-msgstr "中海清爽绿"
+msgid "Medium Sea Green"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:101
 #: luasrc/model/cbi/advancedplus/upload-login.lua:101
@@ -400,8 +372,8 @@ msgstr ""
 msgid "Perform operation"
 msgstr "执行操作"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
 msgid "Primary Color"
 msgstr ""
 
@@ -421,14 +393,6 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:31
-msgid "Refreshing mode"
-msgstr "清爽模式"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:83
-msgid "Remarks"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:103
 #: luasrc/model/cbi/advancedplus/upload-login.lua:103
 msgid "Remove"
@@ -445,14 +409,14 @@ msgid "Routing"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:96
-msgid "RoyalBlue"
-msgstr "皇家高端蓝"
+msgid "Royal Blue"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:98
-msgid "SandyBrown"
-msgstr "桑迪布朗黄"
+msgid "Sandy Brown"
+msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:84
+#: luasrc/model/cbi/advancedplus/config-argon.lua:70
 #: luasrc/model/cbi/advancedplus/config-design.lua:45
 msgid "Save Changes"
 msgstr "保存更改"
@@ -544,11 +508,21 @@ msgid ""
 "considered a comment, Remove (;) and enable the specified option."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:34
+#: luasrc/model/cbi/advancedplus/config-argon.lua:21
+#: luasrc/model/cbi/advancedplus/config-design.lua:14
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:6
+msgid "Theme Config"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:32
 #: luasrc/model/cbi/advancedplus/config-design.lua:19
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:89
 msgid "Theme mode"
 msgstr "主题模式"
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:83
+msgid "Theme name"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:8
 msgid ""
@@ -560,16 +534,20 @@ msgstr ""
 "预置6种颜色方案，只可设置桌面壁纸图显示与否。自定义的颜色值是RGB值如："
 "255,0,0(表示红色)，模糊半径为0则画面无卡顿。"
 
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:31
+msgid "Thin Mode"
+msgstr ""
+
 #: luasrc/model/cbi/advancedplus/advancededit.lua:14
 msgid "This page is about configuration"
 msgstr "本页是配置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:99
-msgid "TomatoRed"
-msgstr "番茄别样红"
+msgid "Tomato Red"
+msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
 msgid "Transparency"
 msgstr ""
 
@@ -578,6 +556,10 @@ msgid ""
 "Turn off the TSO parameters of the INTEL225 network card to improve network "
 "interruption"
 msgstr "关闭INTEL225网卡TSO参数，改善网络断流"
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:17
+msgid "Unsplash Wallpaper"
+msgstr ""
 
 #: luasrc/view/advancedplus/other_upload.htm:4
 msgid "Upload"
@@ -601,39 +583,99 @@ msgstr ""
 msgid "Waiting,(executing)..."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:28
+#: luasrc/model/cbi/advancedplus/config-argon.lua:26
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
 msgid "Wallpaper Source"
 msgstr "壁纸来源"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:120
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:23
+msgid "Wallpaper Synchronization"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
 msgid "Wallpaper blur radius"
 msgstr "壁纸模糊半径"
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:23
-msgid "Wallpaper synchronization"
-msgstr "壁纸同步"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:111
 msgid "Wallpaper transparency"
 msgstr "壁纸透明度"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:38
 #: luasrc/model/cbi/advancedplus/config-design.lua:25
 msgid "You can choose Theme color mode here"
 msgstr "你可以选择喜欢的主题模式"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
 msgid "[Dark mode]"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
 msgid "[Light mode]"
 msgstr ""
+
+#~ msgid "Argon Config"
+#~ msgstr "Argon主题设置"
+
+#~ msgid "Auto"
+#~ msgstr "自动"
+
+#~ msgid "Auto download Bing wallpaper"
+#~ msgstr "自动下载Bing每日壁纸"
+
+#~ msgid "Auto download Bird 4K wallpaper"
+#~ msgstr "自动下载360小鸟4K高清壁纸(每日4千张随机选)"
+
+#~ msgid "Auto download Iciba wallpaper"
+#~ msgstr "自动下载词霸每日壁纸"
+
+#~ msgid "Auto download unsplash wallpaper"
+#~ msgstr "自动下载unsplash壁纸"
+
+#~ msgid "Bing Wallpapers"
+#~ msgstr "Bing 壁纸"
+
+#~ msgid "Black tea eye protection gray"
+#~ msgstr "黑茶护眼灰"
+
+#~ msgid "Built-in"
+#~ msgstr "内建"
+
+#~ msgid "Cool night time(gray and dark)"
+#~ msgstr "炫酷黑夜时空(灰度暗)"
+
+#~ msgid "Dark"
+#~ msgstr "暗色"
+
+#~ msgid "Design Config"
+#~ msgstr "Design主题设置"
+
+#~ msgid "Light"
+#~ msgstr "亮色"
+
+#~ msgid "Local wallpaper"
+#~ msgstr "本地壁纸库"
+
+#~ msgid "MediumSeaGreen"
+#~ msgstr "中海清爽绿"
+
+#~ msgid "Refreshing mode"
+#~ msgstr "清爽模式"
+
+#~ msgid "RoyalBlue"
+#~ msgstr "皇家高端蓝"
+
+#~ msgid "SandyBrown"
+#~ msgstr "桑迪布朗黄"
+
+#~ msgid "TomatoRed"
+#~ msgstr "番茄别样红"
+
+#~ msgid "Wallpaper synchronization"
+#~ msgstr "壁纸同步"
 
 #~ msgid ""
 #~ "0 transparent - 1 opaque ; ( Suggest: Black translucent preset: 0.5 )"

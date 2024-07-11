@@ -1,14 +1,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
-msgid "0 clear - 10 blur"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
+msgid "0 Clear - 10 Blur"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
-msgid "0 transparent - 1 opaque"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+msgid "0 Transparent - 1 Opaque"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
@@ -38,8 +38,8 @@ msgid ""
 "as inability to power on!</strong></font><br/>"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
 msgid "A HEX Color"
 msgstr ""
 
@@ -74,10 +74,6 @@ msgstr ""
 msgid "Allow TTYD external network access"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:23
-msgid "Argon Config"
-msgstr ""
-
 #: luasrc/controller/advancedplus.lua:21
 msgid "Argon Theme Config"
 msgstr ""
@@ -89,26 +85,6 @@ msgid ""
 "settings."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:90
-msgid "Auto"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:18
-msgid "Auto download Bing wallpaper"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
-msgid "Auto download Bird 4K wallpaper"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:16
-msgid "Auto download Iciba wallpaper"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:17
-msgid "Auto download unsplash wallpaper"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:95
 #: luasrc/model/cbi/advancedplus/upload-login.lua:95
 msgid "Background file list"
@@ -118,16 +94,17 @@ msgstr ""
 msgid "Backup / Flash"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:30
-msgid "Bing Wallpapers"
+#: luasrc/model/cbi/advancedplus/config-argon.lua:28
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:18
+msgid "Bing Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
+msgid "Bird 4K Wallpaper"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:100
-msgid "Black tea eye protection gray"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-argon.lua:29
-msgid "Built-in"
+msgid "Black Tea Eye Protection Gray"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:31
@@ -160,25 +137,17 @@ msgstr ""
 msgid "Color scheme list"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:102
-msgid "Cool Ocean Heart (transparent and bright)"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:101
+msgid "Cool Night Time(gray and dark)"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:101
-msgid "Cool night time(gray and dark)"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:102
+msgid "Cool Ocean Heart (transparent and bright)"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:49
 #: luasrc/model/cbi/advancedplus/upload-login.lua:49
 msgid "Create upload file error."
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:92
-msgid "Dark"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-design.lua:14
-msgid "Design Config"
 msgstr ""
 
 #: luasrc/controller/advancedplus.lua:24
@@ -235,11 +204,11 @@ msgstr ""
 msgid "Fatal on get option,please help in debug"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:133
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
 msgid "Fence background transparency"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:129
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
 msgid "Fence background(RGB)"
 msgstr ""
 
@@ -253,23 +222,26 @@ msgstr ""
 msgid "File saved to"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:35
+#: luasrc/model/cbi/advancedplus/config-argon.lua:33
 #: luasrc/model/cbi/advancedplus/config-design.lua:20
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:90
 msgid "Follow System"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:37
+#: luasrc/model/cbi/advancedplus/config-argon.lua:35
 #: luasrc/model/cbi/advancedplus/config-design.lua:22
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:92
 msgid "Force Dark"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:36
+#: luasrc/model/cbi/advancedplus/config-argon.lua:34
 #: luasrc/model/cbi/advancedplus/config-design.lua:21
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:91
 msgid "Force Light"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
 msgid "Frosted Glass Radius"
 msgstr ""
 
@@ -277,7 +249,7 @@ msgstr ""
 msgid "Grant UCI access for luci-app-advancedplus"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:23
+#: luasrc/model/cbi/advancedplus/config-argon.lua:21
 #: luasrc/model/cbi/advancedplus/config-design.lua:14
 msgid "Here you can adjust various theme settings. [Recommend Chrome]"
 msgstr ""
@@ -288,6 +260,10 @@ msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-design.lua:43
 msgid "Homeproxy by default"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:16
+msgid "Iciba Wallpaper"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:15
@@ -310,7 +286,6 @@ msgid ""
 msgstr ""
 
 #: luasrc/controller/advancedplus.lua:18
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:6
 msgid "KuCat Theme Config"
 msgstr ""
 
@@ -318,17 +293,14 @@ msgstr ""
 msgid "LED Configuration"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:91
-msgid "Light"
-msgstr ""
-
 #: luasrc/controller/advancedplus.lua:16
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:5
 msgid "Loading plugins"
 msgstr ""
 
+#: luasrc/model/cbi/advancedplus/config-argon.lua:27
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:15
-msgid "Local wallpaper"
+msgid "Local Wallpaper"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
@@ -346,7 +318,7 @@ msgid "Main Background color(RGB)"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:97
-msgid "MediumSeaGreen"
+msgid "Medium Sea Green"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:101
@@ -396,8 +368,8 @@ msgstr ""
 msgid "Perform operation"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
 msgid "Primary Color"
 msgstr ""
 
@@ -417,14 +389,6 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:31
-msgid "Refreshing mode"
-msgstr ""
-
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:83
-msgid "Remarks"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:103
 #: luasrc/model/cbi/advancedplus/upload-login.lua:103
 msgid "Remove"
@@ -441,14 +405,14 @@ msgid "Routing"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:96
-msgid "RoyalBlue"
+msgid "Royal Blue"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:98
-msgid "SandyBrown"
+msgid "Sandy Brown"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:84
+#: luasrc/model/cbi/advancedplus/config-argon.lua:70
 #: luasrc/model/cbi/advancedplus/config-design.lua:45
 msgid "Save Changes"
 msgstr ""
@@ -536,10 +500,20 @@ msgid ""
 "considered a comment, Remove (;) and enable the specified option."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:34
+#: luasrc/model/cbi/advancedplus/config-argon.lua:21
+#: luasrc/model/cbi/advancedplus/config-design.lua:14
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:6
+msgid "Theme Config"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:32
 #: luasrc/model/cbi/advancedplus/config-design.lua:19
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:89
 msgid "Theme mode"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:83
+msgid "Theme name"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:8
@@ -550,16 +524,20 @@ msgid ""
 "image."
 msgstr ""
 
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:31
+msgid "Thin Mode"
+msgstr ""
+
 #: luasrc/model/cbi/advancedplus/advancededit.lua:14
 msgid "This page is about configuration"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:99
-msgid "TomatoRed"
+msgid "Tomato Red"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
 msgid "Transparency"
 msgstr ""
 
@@ -567,6 +545,10 @@ msgstr ""
 msgid ""
 "Turn off the TSO parameters of the INTEL225 network card to improve network "
 "interruption"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:17
+msgid "Unsplash Wallpaper"
 msgstr ""
 
 #: luasrc/view/advancedplus/other_upload.htm:4
@@ -591,36 +573,36 @@ msgstr ""
 msgid "Waiting,(executing)..."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:28
+#: luasrc/model/cbi/advancedplus/config-argon.lua:26
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:14
 msgid "Wallpaper Source"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:120
-msgid "Wallpaper blur radius"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:23
+msgid "Wallpaper Synchronization"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:23
-msgid "Wallpaper synchronization"
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
+msgid "Wallpaper blur radius"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:111
 msgid "Wallpaper transparency"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:38
 #: luasrc/model/cbi/advancedplus/config-design.lua:25
 msgid "You can choose Theme color mode here"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:63
-#: luasrc/model/cbi/advancedplus/config-argon.lua:68
-#: luasrc/model/cbi/advancedplus/config-argon.lua:76
+#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:60
+#: luasrc/model/cbi/advancedplus/config-argon.lua:65
 msgid "[Dark mode]"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:42
-#: luasrc/model/cbi/advancedplus/config-argon.lua:47
-#: luasrc/model/cbi/advancedplus/config-argon.lua:55
+#: luasrc/model/cbi/advancedplus/config-argon.lua:40
+#: luasrc/model/cbi/advancedplus/config-argon.lua:45
+#: luasrc/model/cbi/advancedplus/config-argon.lua:50
 msgid "[Light mode]"
 msgstr ""
