@@ -376,7 +376,7 @@ msgstr "系统进程"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:64
 msgid "Proxy Key Settings"
-msgstr ""
+msgstr "代理快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:13
 msgid "Qos automatic optimization"
@@ -462,7 +462,7 @@ msgstr "启动项"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:39
 msgid "Status key Settings"
-msgstr ""
+msgstr "状态快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:50
 msgid "System"
@@ -474,7 +474,7 @@ msgstr "系统日志"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:48
 msgid "System key Settings"
-msgstr ""
+msgstr "系统快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
 msgid "TSO optimization for network card interruption"
@@ -609,9 +609,3 @@ msgstr "[暗色模式] "
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
 msgstr "[亮色模式] "
-
-#~ msgid "Status Homekey Settings"
-#~ msgstr "状态相关快捷键设置"
-
-#~ msgid "System Userkey Settings"
-#~ msgstr "系统相关快捷键设置"

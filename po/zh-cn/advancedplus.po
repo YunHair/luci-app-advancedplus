@@ -69,7 +69,7 @@ msgstr "允许TTYD外网访问"
 
 #: luasrc/controller/advancedplus.lua:21
 msgid "Argon Theme Config"
-msgstr ""
+msgstr "Argon 主题设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:7
 msgid ""
@@ -116,7 +116,7 @@ msgstr "选择本地文件："
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
 msgid "Choose to load and install the app store, DOCKER, all drivers, etc"
-msgstr "选择加载安装应用商店、Docker、所有驱动等"
+msgstr "选择加载安装应用商店、Docker、所有驱动等。"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:19
 #: luasrc/view/advancedplus/advanced.htm:6
@@ -147,7 +147,7 @@ msgstr "创建上传文件失败。"
 
 #: luasrc/controller/advancedplus.lua:24
 msgid "Design heme Config"
-msgstr ""
+msgstr "Design 主题设置"
 
 #: luasrc/controller/advancedplus.lua:27
 msgid "Desktop Background Upload"
@@ -165,7 +165,7 @@ msgstr "显示导航栏"
 msgid ""
 "Document content, Automatic restart takes effect after saving the "
 "application."
-msgstr "文档内容。应用保存后自动重启生效"
+msgstr "文档内容，应用保存后自动重启生效。"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:17
 msgid "Download bandwidth (Mbit/s)"
@@ -263,7 +263,7 @@ msgstr "Iciba 壁纸"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:15
 msgid "Install All Drives"
-msgstr ""
+msgstr "安装 全部驱动"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:14
 msgid "Install Docker"
@@ -282,7 +282,7 @@ msgstr "登录壁纸与桌面壁纸是否一致，不选择表示桌面壁纸和
 
 #: luasrc/controller/advancedplus.lua:18
 msgid "KuCat Theme Config"
-msgstr ""
+msgstr "KuCat 主题设置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:57
 msgid "LED Configuration"
@@ -376,7 +376,7 @@ msgstr "系统进程"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:64
 msgid "Proxy Key Settings"
-msgstr ""
+msgstr "代理快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:13
 msgid "Qos automatic optimization"
@@ -462,7 +462,7 @@ msgstr "启动项"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:39
 msgid "Status key Settings"
-msgstr ""
+msgstr "状态快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:50
 msgid "System"
@@ -474,7 +474,7 @@ msgstr "系统日志"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:48
 msgid "System key Settings"
-msgstr ""
+msgstr "系统快捷键设置"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
 msgid "TSO optimization for network card interruption"
@@ -602,19 +602,10 @@ msgstr "你可以选择喜欢的主题模式"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:59
 #: luasrc/model/cbi/advancedplus/config-argon.lua:64
 msgid "[Dark Mode]"
-msgstr "[暗色模式]"
+msgstr "[暗色模式] "
 
 #: luasrc/model/cbi/advancedplus/config-argon.lua:39
 #: luasrc/model/cbi/advancedplus/config-argon.lua:44
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
-msgstr "[亮色模式]"
-
-#~ msgid "Status Homekey Settings"
-#~ msgstr "状态相关快捷键设置"
-
-#~ msgid "System Userkey Settings"
-#~ msgstr "系统相关快捷键设置"
-
-#~ msgid "Install All drives"
-#~ msgstr "安装 全部驱动"
+msgstr "[亮色模式] "
