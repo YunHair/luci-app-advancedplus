@@ -36,7 +36,7 @@ o = s:option(Flag, "dayword", translate("Enable Daily Word"))
 o.rmempty = false
 o.default = '0'
 
-o = s:option(Value, 'gohome', translate("Status Homekey Settings"))
+o = s:option(Value, 'gohome', translate("Status key Settings"))
 o:value('overview', translate("Overview"))
 o:value('routes', translate("Routing"))
 o:value('logs', translate("System Log"))
@@ -45,7 +45,7 @@ o:value('realtime', translate("Realtime Graphs"))
 o.default = 'overview'
 o.rmempty = false
 
-o = s:option(Value, 'gouser', translate("System Userkey Settings"))
+o = s:option(Value, 'gouser', translate("System key Settings"))
 o:value('advancedplus', translate("Advanced plus"))
 o:value('system', translate("System"))
 o:value('admin', translate("Administration"))
@@ -61,7 +61,7 @@ o:value('reboot', translate("Reboot"))
 o.default = 'advancedplus'
 o.rmempty = false
 
-o = s:option(Value, 'goproxy', translate("Services Proxy Settings"))
+o = s:option(Value, 'goproxy', translate("Proxy Key Settings"))
 o:value('helloworld', 'helloworld')
 o:value('homeproxy', 'homeproxy')
 o:value('mihomo', 'mihomo')
