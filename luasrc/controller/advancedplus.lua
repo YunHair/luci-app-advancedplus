@@ -13,7 +13,6 @@ function index()
 	page.acl_depends = { "luci-app-advancedplus" }
 	entry({"admin", "system", "advancedplus", "advancededit"}, cbi("advancedplus/advancededit"), _("Advanced Edit"), 10).leaf = true
 	entry({"admin", "system", "advancedplus", "advancedset"}, cbi("advancedplus/advancedset"), _("Advanced Setting"), 20).leaf = true
-	entry({"admin", "system", "advancedplus", "advancedipk"}, cbi("advancedplus/advancedipk", {hideapplybtn = true, hidesavebtn = true, hideresetbtn = true}), _("Loading plugins"), 30).leaf = true
 	if fs.access('/www/luci-static/kucat/css/style.css') then
 		entry({"admin", "system", "advancedplus", "config-kucat"}, cbi("advancedplus/config-kucat"), _("KuCat Theme Config"), 40).leaf = true
 	end
