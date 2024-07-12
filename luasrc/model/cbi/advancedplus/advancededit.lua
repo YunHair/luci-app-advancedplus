@@ -14,7 +14,7 @@ local function CreateTab(s, fileName, filePath)
 		s:tab(fileCFG, fileName, translate("This page is about configuration ")..filePath..translate(" Document content, Automatic restart takes effect after saving the application."))
 		local conf = s:taboption(fileCFG, Value, fileCFG, nil, translate("The starting number symbol (#) or each line of the semicolon (;) is considered a comment, Remove (;) and enable the specified option."))
 		conf.template = "cbi/tvalue"
-		conf.rows = 100
+		conf.rows = 20
 		conf.wrap = "off"
 		conf.cfgvalue = function()
 			return fs.readfile(filePath) or ""

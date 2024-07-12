@@ -61,7 +61,7 @@ o:value('reboot', translate("Reboot"))
 o.default = 'advancedplus'
 o.rmempty = false
 
-o = s:option(Value, 'goproxy', Translate('Services Proxy Settings'))
+o = s:option(Value, 'goproxy', translate("Services Proxy Settings"))
 o:value('helloworld', 'helloworld')
 o:value('homeproxy', 'homeproxy')
 o:value('mihomo', 'mihomo')

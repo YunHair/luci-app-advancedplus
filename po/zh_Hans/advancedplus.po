@@ -112,7 +112,7 @@ msgstr "选择本地文件："
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:6
 msgid "Choose to load and install the app store, DOCKER, all drivers, etc"
-msgstr "选择加载安装应用商店、Docker、所有驱动等"
+msgstr "选择加载安装应用商店、Docker、所有驱动等。"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:19
 #: luasrc/view/advancedplus/advanced.htm:6
@@ -157,7 +157,7 @@ msgstr "显示导航栏"
 msgid ""
 "Document content, Automatic restart takes effect after saving the "
 "application."
-msgstr "文档内容。应用保存后自动重启生效"
+msgstr "文档内容，应用保存后自动重启生效。"
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:17
 msgid "Download bandwidth (Mbit/s)"
@@ -254,7 +254,7 @@ msgid "Iciba Wallpaper"
 msgstr "Iciba 壁纸"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:15
-msgid "Install All drives"
+msgid "Install All Drives"
 msgstr "安装 全部驱动"
 
 #: luasrc/model/cbi/advancedplus/advancedipk.lua:14

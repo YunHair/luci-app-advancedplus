@@ -41,7 +41,7 @@ o.default = primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency', translate("[Light Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
+o = s:option(Value, 'transparency', translate("[Light Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
 o.default = transparency
 o.datatype = ufloat
 o.rmempty = false
@@ -56,7 +56,7 @@ o.default = dark_primary
 o.datatype = ufloat
 o.rmempty = false
 
-o = s:option(ListValue, 'transparency_dark', translate("[Dark Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
+o = s:option(Value, 'transparency_dark', translate("[Dark Mode]")..translate(" Transparency"), translate("0 Transparent - 1 Opaque"))
 o.default = transparency_dark
 o.datatype = ufloat
 o.rmempty = false
