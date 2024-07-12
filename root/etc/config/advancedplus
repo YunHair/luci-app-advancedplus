@@ -12,7 +12,7 @@ config basic
 	option background '3'
 	option bgqs '1'
 	option bkuse '0'
-	option mode 'normal'
+	option mode 'auto'
 	option primary_opacity '0'
 	option primary_rgbm 'orange'
 	option primary_rgbm_ts '0.9'
@@ -21,7 +21,7 @@ config basic
 
 config theme
 	option bkuse '0'
-	option mode 'normal'
+	option mode 'auto'
 	option primary_opacity '0'
 	option primary_rgbm 'orange'
 	option primary_rgbm_ts '0.9'
@@ -39,7 +39,7 @@ config theme
 	option primary_rgbs '64,68,70'
 	option primary_rgbs_ts '0.1'
 	option remarks '炫酷黑夜时空'
-	option use '1'
+	option use '0'
 
 config theme
 	option bkuse '0'
@@ -50,4 +50,4 @@ config theme
 	option primary_rgbs '55,103,128'
 	option primary_rgbs_ts '0.1'
 	option remarks '炫酷海洋之心'
-	option use '1'
+	option use '0'

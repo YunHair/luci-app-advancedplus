@@ -87,10 +87,10 @@ o.rmempty = false
 o.default = '1'
 
 o = s:option(ListValue, 'mode', translate("Theme Mode"))
-o:value('normal', translate("Follow System"))
+o:value('auto', translate("Follow System"))
 o:value('light', translate("Force Light"))
 o:value('dark', translate("Force Dark"))
-o.default = 'normal'
+o.default = 'auto'
 
 o = s:option(Value, 'primary_rgbm', translate("Main Background Color (RGB)"))
 o:value("blue", translate("Royal Blue"))
@@ -102,7 +102,6 @@ o:value("gray", translate("Cool Night Time"))
 o:value("bluets", translate("Cool Ocean Heart"))
 o.default='blue'
 o.datatype = ufloat
-o.default='20,109,179'
 
 o = s:option(Flag, "bkuse", translate("Enable Wallpaper"))
 o.rmempty = false
