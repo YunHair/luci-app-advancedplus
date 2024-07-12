@@ -183,7 +183,7 @@ msgstr "启用每日一言"
 msgid "Enable QOS automatic optimization strategy (testing function)"
 msgstr "开启QOS自动优化策略（测试功能）"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:107
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:106
 msgid "Enable Wallpaper"
 msgstr "启用壁纸"
 
@@ -199,11 +199,11 @@ msgstr "展开或者收缩导航栏"
 msgid "Fatal on get option,please help in debug"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:126
 msgid "Fence Background (RGB)"
 msgstr "隔栏背景色（RGB）"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:130
 msgid "Fence Background Transparency"
 msgstr "隔栏背景透明度"
 
@@ -576,7 +576,7 @@ msgstr "文件将上传到"
 msgid "Waiting,(executing)..."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:118
 msgid "Wallpaper Blur Radius"
 msgstr "壁纸模糊半径"
 
@@ -589,7 +589,7 @@ msgstr "壁纸来源"
 msgid "Wallpaper Synchronization"
 msgstr "壁纸同步"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:111
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:110
 msgid "Wallpaper Transparency"
 msgstr "壁纸透明度"
 

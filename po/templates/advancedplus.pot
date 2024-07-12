@@ -178,7 +178,7 @@ msgstr ""
 msgid "Enable QOS automatic optimization strategy (testing function)"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:107
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:106
 msgid "Enable Wallpaper"
 msgstr ""
 
@@ -194,11 +194,11 @@ msgstr ""
 msgid "Fatal on get option,please help in debug"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:127
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:126
 msgid "Fence Background (RGB)"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:130
 msgid "Fence Background Transparency"
 msgstr ""
 
@@ -562,7 +562,7 @@ msgstr ""
 msgid "Waiting,(executing)..."
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:119
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:118
 msgid "Wallpaper Blur Radius"
 msgstr ""
 
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Wallpaper Synchronization"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:111
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:110
 msgid "Wallpaper Transparency"
 msgstr ""
 
