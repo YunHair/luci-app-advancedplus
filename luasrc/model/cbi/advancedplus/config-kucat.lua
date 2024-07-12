@@ -20,15 +20,15 @@ o:value('4', translate("Bird 4K Wallpaper"))
 o.default = '3'
 o.rmempty = false
 
-o = s:option(Flag, "sync", translate("Wallpaper Synchronization"), translate("Is the login wallpaper consistent with the desktop wallpaper? If not selected, it indicates that the desktop wallpaper and login wallpaper are set independently."))
+o = s:option(Flag, "bklock", translate("Wallpaper Synchronization"), translate("Is the login wallpaper consistent with the desktop wallpaper? If not selected, it indicates that the desktop wallpaper and login wallpaper are set independently."))
 o.rmempty = false
 o.default = '1'
 
-o = s:option(Flag, "expand", translate("Expand Toolbar"), translate("Expand or shrink the toolbar"))
+o = s:option(Flag, "setbar", translate("Expand Toolbar"), translate("Expand or shrink the toolbar"))
 o.rmempty = false
 o.default = '0'
 
-o = s:option(Flag, "thin", translate("Thin Mode"), translate("Cancel background glass fence special effects"))
+o = s:option(Flag, "bgqs", translate("Thin Mode"), translate("Cancel background glass fence special effects"))
 o.rmempty = false
 o.default = '1'
 
@@ -61,7 +61,7 @@ o:value('reboot', translate("Reboot"))
 o.default = 'advancedplus'
 o.rmempty = false
 
-o = s:option(Value, 'goproxy', translate("Proxy Key Settings"))
+o = s:option(Value, 'gossr', translate("Proxy Key Settings"))
 o:value('helloworld', 'helloworld')
 o:value('homeproxy', 'homeproxy')
 o:value('mihomo', 'mihomo')
@@ -80,7 +80,7 @@ s.template = "cbi/tblsection"
 s.anonymous = true
 s.addremove = true
 
-o = s:option(Value, 'name', translate("Theme Name"))
+o = s:option(Value, 'remarks', translate("Theme Name"))
 
 o = s:option(Flag, "use", translate("Enable Color Matching"))
 o.rmempty = false
@@ -104,7 +104,7 @@ o.default='blue'
 o.datatype = ufloat
 o.default='20,109,179'
 
-o = s:option(Flag, "wallpaper", translate("Enable Wallpaper"))
+o = s:option(Flag, "bkuse", translate("Enable Wallpaper"))
 o.rmempty = false
 o.default = '0'
 
