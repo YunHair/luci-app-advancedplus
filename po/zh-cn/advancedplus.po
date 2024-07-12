@@ -374,6 +374,10 @@ msgstr "主色调"
 msgid "Processes"
 msgstr "系统进程"
 
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:64
+msgid "Proxy Key Settings"
+msgstr ""
+
 #: luasrc/model/cbi/advancedplus/advancedset.lua:13
 msgid "Qos automatic optimization"
 msgstr "QoS自动优化"
@@ -426,10 +430,6 @@ msgstr "计划任务"
 msgid "Select the type of loading"
 msgstr "选择加载的类型"
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:64
-msgid "Services Proxy Settings"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:7
 msgid ""
 "Set and manage features such as KuCat themed background wallpaper, main "
@@ -461,8 +461,8 @@ msgid "Startup"
 msgstr "启动项"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:39
-msgid "Status Homekey Settings"
-msgstr "状态相关快捷键设置"
+msgid "Status key Settings"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:50
 msgid "System"
@@ -473,8 +473,8 @@ msgid "System Log"
 msgstr "系统日志"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:48
-msgid "System Userkey Settings"
-msgstr "系统相关快捷键设置"
+msgid "System key Settings"
+msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
 msgid "TSO optimization for network card interruption"
@@ -609,6 +609,12 @@ msgstr "[暗色模式]"
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
 msgstr "[亮色模式]"
+
+#~ msgid "Status Homekey Settings"
+#~ msgstr "状态相关快捷键设置"
+
+#~ msgid "System Userkey Settings"
+#~ msgstr "系统相关快捷键设置"
 
 #~ msgid "Install All drives"
 #~ msgstr "安装 全部驱动"

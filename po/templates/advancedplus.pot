@@ -367,6 +367,10 @@ msgstr ""
 msgid "Processes"
 msgstr ""
 
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:64
+msgid "Proxy Key Settings"
+msgstr ""
+
 #: luasrc/model/cbi/advancedplus/advancedset.lua:13
 msgid "Qos automatic optimization"
 msgstr ""
@@ -419,10 +423,6 @@ msgstr ""
 msgid "Select the type of loading"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-kucat.lua:64
-msgid "Services Proxy Settings"
-msgstr ""
-
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:7
 msgid ""
 "Set and manage features such as KuCat themed background wallpaper, main "
@@ -452,7 +452,7 @@ msgid "Startup"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:39
-msgid "Status Homekey Settings"
+msgid "Status key Settings"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:50
@@ -464,7 +464,7 @@ msgid "System Log"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:48
-msgid "System Userkey Settings"
+msgid "System key Settings"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/advancedset.lua:33
