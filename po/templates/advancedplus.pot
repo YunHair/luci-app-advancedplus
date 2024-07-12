@@ -128,11 +128,11 @@ msgid "Color Scheme List"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:101
-msgid "Cool Night Time (gray and dark)"
+msgid "Cool Night Time"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:102
-msgid "Cool Ocean Heart (transparent and bright)"
+msgid "Cool Ocean Heart"
 msgstr ""
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:49
