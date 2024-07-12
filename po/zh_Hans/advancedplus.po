@@ -578,24 +578,3 @@ msgstr "[暗色模式] "
 #: luasrc/model/cbi/advancedplus/config-argon.lua:49
 msgid "[Light Mode]"
 msgstr "[亮色模式] "
-
-#~ msgid "Choose to load and install the app store, DOCKER, all drivers, etc"
-#~ msgstr "选择加载安装应用商店、Docker、所有驱动等。"
-
-#~ msgid "Install All Drives"
-#~ msgstr "安装 全部驱动"
-
-#~ msgid "Install Docker"
-#~ msgstr "安装 Docker"
-
-#~ msgid "Install iStore"
-#~ msgstr "安装 iStore"
-
-#~ msgid "Loading plugins"
-#~ msgstr "加载插件"
-
-#~ msgid "Perform operation"
-#~ msgstr "执行操作"
-
-#~ msgid "Select the type of loading"
-#~ msgstr "选择加载的类型"
