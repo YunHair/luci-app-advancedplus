@@ -133,12 +133,12 @@ msgid "Color Scheme List"
 msgstr "颜色配置方案列表"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:101
-msgid "Cool Night Time (gray and dark)"
-msgstr "炫酷黑夜时空（灰度暗）"
+msgid "Cool Night Time"
+msgstr "炫酷黑夜时空"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:102
-msgid "Cool Ocean Heart (transparent and bright)"
-msgstr "炫酷海洋之心（透明亮）"
+msgid "Cool Ocean Heart"
+msgstr "炫酷海洋之心"
 
 #: luasrc/model/cbi/advancedplus/upload-desktop.lua:49
 #: luasrc/model/cbi/advancedplus/upload-login.lua:49
@@ -407,7 +407,7 @@ msgstr "路由"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:96
 msgid "Royal Blue"
-msgstr "皇家高端蓝"
+msgstr "皇家高级蓝"
 
 #: luasrc/model/cbi/advancedplus/config-kucat.lua:98
 msgid "Sandy Brown"

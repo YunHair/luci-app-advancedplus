@@ -98,8 +98,8 @@ o:value("green", translate("Medium Sea Green"))
 o:value("orange", translate("Sandy Brown"))
 o:value("red", translate("Tomato Red"))
 o:value("black", translate("Black Tea Eye Protection Gray"))
-o:value("gray", translate("Cool Night Time (gray and dark)"))
-o:value("bluets", translate("Cool Ocean Heart (transparent and bright)"))
+o:value("gray", translate("Cool Night Time"))
+o:value("bluets", translate("Cool Ocean Heart"))
 o.default='blue'
 o.datatype = ufloat
 o.default='20,109,179'
