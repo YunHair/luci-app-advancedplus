@@ -24,7 +24,7 @@ ul:depends("qos", true)
 
 o = s:option(Flag, "uhttps", translate("Accessing using HTTPS"), translate("Open the address in the background and use HTTPS for secure access"))
 
-o = s:option(Flag, "usshmenu", translate("No backend menu required"), translate("OPENWRT backend and SSH login do not display shortcut menus"))
+
 
 o = s:option(Flag, "wizard", translate("Hide Wizard"), translate("Show or hide the setup wizard menu"))
 o.default = "0"
