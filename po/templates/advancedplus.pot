@@ -6,7 +6,7 @@ msgstr "Content-Type: text/plain; charset=UTF-8"
 msgid "0 Clear - 10 Blur"
 msgstr ""
 
-#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#luasrc/model/cbi/advancedplus/config-argon.lua:44
 #: luasrc/model/cbi/advancedplus/config-argon.lua:59
 msgid "0 Transparent - 1 Opaque"
 msgstr ""
