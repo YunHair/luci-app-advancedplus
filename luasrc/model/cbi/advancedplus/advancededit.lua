@@ -40,7 +40,7 @@ CreateTab(s, "dhcp", "/etc/config/dhcp")
 CreateTab(s, "firewall", "/etc/config/firewall")
 CreateTab(s, "network", "/etc/config/network")
 CreateTab(s, "wireless", "/etc/config/wireless")
-
+CreateTab(s, "frp", "/etc/config/frp")
 CreateTab(s, "arpbind", "/etc/config/arpbind")
 CreateTab(s, "autotimeset", "/etc/config/autotimeset")
 CreateTab(s, "bypass", "/etc/config/bypass")
